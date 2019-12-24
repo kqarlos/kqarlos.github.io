@@ -26,7 +26,7 @@
 
 ## Deployed Link
 
-* [See Live Site](https://kqarlos.github.io/kqarlos.github.io)
+* [See Live Site](https://kqarlos.github.io)
 
 ## Author
 
