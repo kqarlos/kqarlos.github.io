@@ -5,10 +5,12 @@ import Portfolio from './components/Portfolio'
 import Footer from './components/Footer'
 import TopButton from './components/TopButton';
 import Project from './components/Project';
+import { StoreProvider } from './utils/GlobalState';
+
 
 function App() {
   return (
-    <div>
+    <StoreProvider>
 
       <TopButton />
       <About />
@@ -17,7 +19,7 @@ function App() {
       <Project />
       <Footer />
 
-    </div>
+    </StoreProvider>
   );
 }
 

@@ -1,9 +1,15 @@
 import React from 'react';
 import './style.css';
+import { useStoreContext } from "../utils/GlobalState";
+import { SET_PROJECT } from '../utils/actions';
 
 function Project() {
 
+    const [state, dispatch] = useStoreContext();
+
+
     return (
+
 
         <div id="project" data-project="{{project}}" style="display:{{projectDisplay}};">
 
