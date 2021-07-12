@@ -7,37 +7,6 @@
 } */
 
 
-
-.content {
-    width: 62.5%;
-    margin: 0 auto;
-    min-height: calc(110vh - 265px);
-}
-
-#portfolio, #about{
-    padding-top: calc(80px + (1rem * 1.5));    
-    background-image: url("../images/beanstalk.png");
-    min-height: 100vh;
-    padding-bottom: calc(1rem * 2);
-}
-
-#project{
-    padding-top: calc(40px + (1rem * 1.5));    
-    background-image: url("../images/beanstalk.png");
-    min-height: 100vh;
-    padding-bottom: calc(1rem * 2);
-}
-
-#about {
-    padding-top: 5%;
-    background-image: url("../images/welcome.jpg");
-}
-
-#headshot {
-    width: 300px;
-    margin: 5px 15px 5px 0px;
-} 
-
 .projectCard {
     padding: 0px;
 }
@@ -75,16 +44,10 @@
 }
 
 
-.footerLink{
-    color: white;
-    border-radius: 30%;
-}
+
 
 @media screen and (max-width: 576px) {
-    
-    .content {
-        width: 80%;
-    }
+
     #headshot {
         width: 100%;
         margin: 0 auto;

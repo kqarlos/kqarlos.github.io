@@ -1,7 +1,7 @@
 import React from 'react';
-import headshot from '../assets/images/headshot.jpg'
+import headshot from '../../assets/images/headshot.jpg'
 
-function Homepage() {
+function About() {
 
     return (
 
@@ -57,4 +57,4 @@ function Homepage() {
     )
 }
 
-export default Homepage;
+export default About;
