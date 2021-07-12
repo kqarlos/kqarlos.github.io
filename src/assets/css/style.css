@@ -6,34 +6,18 @@
     display: none;
 } */
 
-
-.projectCard {
-    padding: 0px;
-}
-
 .rightCorners {
     border-radius: 0px;
     border: 0px;
 }
 
-.card {
-    height: 100%;
-    width: 100%;
-}
+
 .card-img {
     height: 100%;
     width: 100%;
 }
 
-#topBtn {
-    display: none;
-    position: fixed;
-    bottom: 80px;
-    right: 30px;
-    z-index: 99;
-    font-size: 18px;
 
-  }
 
 .codeSnippet {
     max-width: 100%;
@@ -44,23 +28,5 @@
 }
 
 
-
-
-@media screen and (max-width: 576px) {
-
-    #headshot {
-        width: 100%;
-        margin: 0 auto;
-    }  
-
-    #topBtn {
-        right: 2px;
-    }
-
-    #t{
-        display: none;
-    }
-
-}
 
 
