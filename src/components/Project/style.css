@@ -1,0 +1,15 @@
+#project{
+    display: 'none';
+    padding-top: calc(40px + (1rem * 1.5));    
+    background-image: url("../../assets/images/beanstalk.png");
+    min-height: 100vh;
+    padding-bottom: calc(1rem * 2);
+  }
+
+.codeSnippet {
+    max-width: 100%;
+    /* display: inline-block; */
+    /* object-fit: cover; */
+    /* overflow:  hidden; */
+
+}

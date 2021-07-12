@@ -6,11 +6,6 @@
     display: none;
 } */
 
-.rightCorners {
-    border-radius: 0px;
-    border: 0px;
-}
-
 
 .card-img {
     height: 100%;
@@ -19,13 +14,7 @@
 
 
 
-.codeSnippet {
-    max-width: 100%;
-    /* display: inline-block; */
-    /* object-fit: cover; */
-    /* overflow:  hidden; */
 
-}
 
 
 
