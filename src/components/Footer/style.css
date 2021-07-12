@@ -1,0 +1,10 @@
+.page-footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    font-size: small;
+}
+
+.footerLink{
+    color: white;
+    border-radius: 30%;
+}

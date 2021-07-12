@@ -23,7 +23,7 @@ function Footer() {
 
                     <div class="col-md-auto">
                         <a href="mailto:kqarlos415@gmail.com" class="btn headingText footerLink mx-2"
-                            style="background-color:#4aaaa5;" style={{textDecoration: 'none'}}><i
+                        style={{backgroundColor: '#4aaaa5', textDecoration: 'none'}}><i
                                 class="far fa-paper-plane"></i></a>kqarlos415@gmail.com
                     </div>
 
