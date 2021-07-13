@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './style.css';
-import { useStoreContext } from "../utils/GlobalState";
-import { SET_PROJECT } from '../utils/actions';
+import { useStoreContext } from "../../utils/GlobalState";
 
 function Project() {
 
     const [state, dispatch] = useStoreContext();
 
+    useEffect(() => {
+        console.log(state)
+    }, [])
+
 
     return (
-
 
         <div id="project" data-project={state.currentProject} style={{ display: state.projectDisplay }}>
 
@@ -20,7 +22,7 @@ function Project() {
                 {/* <!-- first row / title --> */}
                 <div class="row mb-3">
                     <div class="col-12">
-                        <p class="font-weight-bold text-info border-bottom pb-3 headingText">{{ name }}</p>
+                        <p class="font-weight-bold text-info border-bottom pb-3 headingText">{state.currentProject.name}</p>
                     </div>
                 </div>
 
@@ -50,12 +52,10 @@ function Project() {
 
                         <div class="row">
 
-
                             <div class="col-md-4">
                                 <div class="list-group" id="list-tab" role="tablist">
 
                                     {state.currentProject.stack2.map((stack, i) => {
-
                                         if (i === 0) {
                                             return (
                                                 <a class="list-group-item list-group-item-action active" id={stack} data-toggle="list"
@@ -68,7 +68,6 @@ function Project() {
                                                     href={`#list-${stack}`} role="tab" aria-controls={stack}>{stack}</a>
                                             )
                                         }
-
                                     })}
 
                                 </div>
@@ -78,9 +77,7 @@ function Project() {
                             <div class="col-md-8">
                                 <div class="tab-content" id="nav-tabContent">
 
-
                                     {state.currentProject.stack2.map((stack, i) => {
-
                                         if (i === 0) {
                                             return (
                                                 <img class="tab-pane fade show active codeSnippet" id={`#list-${stack}`} role="tabpanel"

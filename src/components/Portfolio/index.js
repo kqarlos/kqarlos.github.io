@@ -9,11 +9,23 @@ import dinnerPartyImg from "../../assets/images/dinner-party.png";
 import shoppingBuddyImg from "../../assets/images/shopping/shopping-buddy.png";
 import passGenImg from "../../assets/images/password-generator.png";
 import dayPlannerImg from "../../assets/images/day-planner.png";
-import weatherDashImg from "../../assets/images/weather-dashboard.png"
+import weatherDashImg from "../../assets/images/weather-dashboard.png";
+import { useStoreContext } from "../../utils/GlobalState"
+import { SET_PROJECT } from '../../utils/actions';
+
 
 
 
 function Portfolio() {
+
+    const [state, dispatch] = useStoreContext();
+
+    function handleClick(p) {
+        dispatch({
+            type: SET_PROJECT,
+            project: p
+        });
+    }
 
     return (
 
@@ -39,7 +51,7 @@ function Portfolio() {
                         <div class="card text-center">
                             <img class="card-img-top" src={artisteImg} alt="Card image cap" />
                             <div class="card-body projectCard">
-                                <a href="/artiste" class="btn text-white bg-info contentText w-100 rightCorners">Artiste
+                                <a href="#project" onClick={handleClick('artiste')}class="btn text-white bg-info contentText w-100 rightCorners">Artiste
                                     Affame</a>
                                 <p class="card-text m-2">Live the life of a starving artist in Artiste Affame!</p>
                             </div>

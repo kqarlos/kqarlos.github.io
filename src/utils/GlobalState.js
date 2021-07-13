@@ -8,10 +8,10 @@ const { Provider } = StoreContext;
 
 const reducer = (state, action) => {
     switch (action.type) {
-        case SET_CART:
+        case SET_PROJECT:
             return {
                 ...state,
-                project: action.project,
+                project: state[action.project],
             };
         default:
             return state;
@@ -25,7 +25,7 @@ const StoreProvider = ({ value = [], ...props }) => {
         projects: {
             'artiste': {
                 projectDisplay: 'block',
-                project: req.params.project,
+                project: 'artiste',
                 name: "Artiste Affame",
                 description: "Full-stack MERN application allows users to immerse themselves in the life of a renaissance artist. Users can play games, draw and share their art.",
                 stack: ["React", "Node", "HTML", "CSS", "Javascript"],
@@ -37,7 +37,7 @@ const StoreProvider = ({ value = [], ...props }) => {
             },
             'electionYear': {
                 projectDisplay: 'block',
-                project: req.params.project,
+                project: 'electionYear',
                 name: "Election Year",
                 description: "Full-stack application that allows to create an account and search for their representatives.",
                 stack: ["MySQL", "Express", "Node", "Bootstrap", "Axios", "HMTL", "CSS", "Javascript"],
@@ -49,7 +49,7 @@ const StoreProvider = ({ value = [], ...props }) => {
             },
             'memoryGame': {
                 projectDisplay: 'block',
-                project: req.params.project,
+                project: 'memoryGame',
                 name: "Memory Game",
                 description: "Choose a game theme and start playing. Only click each image once. Click twice and it's game over",
                 stack: ["React", "Node", "Bootstrap", "Axios", "HTML", "CSS", "Javascript"],
@@ -61,7 +61,7 @@ const StoreProvider = ({ value = [], ...props }) => {
             },
             'noteTaker': {
                 projectDisplay: 'block',
-                project: req.params.project,
+                project: 'noteTaker',
                 name: "Note Taker",
                 description: "Real-time note taking application. Take notes, update them, and delete them with this note-taker.",
                 stack: ["Node", "Express", "Bootstrap", "HTML", "CSS"],
@@ -73,7 +73,7 @@ const StoreProvider = ({ value = [], ...props }) => {
             },
             'googleLibrary': {
                 projectDisplay: 'block',
-                project: req.params.project,
+                project: 'googleLibrary',
                 name: "Google Library",
                 description: "Search through Google Books API and keep a list of your favorite books.",
                 stack: ["MongoDB", "Express", "React", "Node", "Bootstrap", "Axios", "Mongoose"],
@@ -85,7 +85,7 @@ const StoreProvider = ({ value = [], ...props }) => {
             },
             'passwordGenerator': {
                 projectDisplay: 'block',
-                project: req.params.project,
+                project: 'passwordGenerator',
                 name: "Password Generator",
                 description: "Generates a random password based on user preferences and copies it to the clipboard.",
                 stack: ["HTML", "CSS", "Javascript", "Bootstrap"],
@@ -95,7 +95,7 @@ const StoreProvider = ({ value = [], ...props }) => {
             },
             'dayPlanner': {
                 projectDisplay: 'block',
-                project: req.params.project,
+                project: 'dayPlanner',
                 name: "Day Planner",
                 description: "A planner for day activities that saves information to local storage",
                 stack: ["HTML", "CSS", "Javascript", "Moment.js", "Bootstrap"],
@@ -105,7 +105,7 @@ const StoreProvider = ({ value = [], ...props }) => {
             },
             'weatherDashboard': {
                 projectDisplay: 'block',
-                project: req.params.project,
+                project: 'weatherDashboard',
                 name: "Weather Dashboard",
                 description: "Displays current weather and forecast for a searched city.",
                 stack: ["HTML", "CSS", "Javascript", "Moment.js", "Bootstrap"],
@@ -115,7 +115,7 @@ const StoreProvider = ({ value = [], ...props }) => {
             },
             'dinnerParty': {
                 projectDisplay: 'block',
-                project: req.params.project,
+                project: 'dinnerParty',
                 name: "Dinner Party",
                 description: "Application that recommends a dish and a cocktail based on a protein choice",
                 stack: ["HTML", "CSS", "Javascript", "Materialize", "Bootstrap"],
@@ -125,7 +125,7 @@ const StoreProvider = ({ value = [], ...props }) => {
             },
             'shoppingBuddy': {
                 projectDisplay: 'block',
-                project: req.params.project,
+                project: 'shoppingBuddy',
                 name: "Shopping Buddy",
                 description: "Manage your shopping list on the go",
                 stack: ["HTML", "CSS", "Javascript", "Express", "Node", "Handlebars", "MySQL"],
