@@ -18,8 +18,8 @@ function TopButton() {
 
     return (
 
-        <a href="#about" class="btn text-white bg-info contentText smoothLink" id="topBtn"><span id="t">Top </span><i
-            class="fas fa-arrow-circle-up"></i></a>
+        <a href="#about" className="btn text-white bg-info contentText smoothLink" id="topBtn"><span id="t">Top </span><i
+            className="fas fa-arrow-circle-up"></i></a>
     )
 }
 

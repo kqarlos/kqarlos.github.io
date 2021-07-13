@@ -9,26 +9,26 @@ function About() {
         <div id="about">
 
             {/* <!-- start grid 1--> */}
-            <div class="container p-4 bg-white border content" style={{backgroundImage: `url('assets/images/beanstalk.png')`}}>
+            <div className="container p-4 bg-white border content" style={{backgroundImage: `url('assets/images/beanstalk.png')`}}>
 
                 {/* <!-- first row / title --> */}
-                <div class="row mb-1">
-                    <div class="col-md-12 pb-1">
-                        <p class="font-weight-bold text-info border-bottom pb-3 headingText">About Me</p>
+                <div className="row mb-1">
+                    <div className="col-md-12 pb-1">
+                        <p className="font-weight-bold text-info border-bottom pb-3 headingText">About Me</p>
                     </div>
                 </div>
 
                 {/* <!-- second row / content --> */}
-                <div class="row">
-                    <div class="col-12 text-secondary">
-                        <img class="rounded float-left" id="headshot" src={headshot} alt="Headshot" />
-                        <p class="contentText">
+                <div className="row">
+                    <div className="col-12 text-secondary">
+                        <img className="rounded float-left" id="headshot" src={headshot} alt="Headshot" />
+                        <p className="contentText">
                             Full-Stack Web Developer with a B.S. in Software Engineering and a minor in Mathematics from San
                             Jose State University. I recently graduated from the University of California, Berkeley Extension with
                             a certificate in Full-Stack Web Development. This added new web development skills to my
                             Object-Oriented Programming experience such as Mongo, Express, React, and Node.
                         </p>
-                        <p class="contentText">
+                        <p className="contentText">
                             My experience in hospitality has given me the ability to easily communicate my thought process with
                             peers and to understand the significance of teamwork and collaboration. I am passionate about
                             problem-solving, learning new technologies and developing user-friendly applications, and learning
@@ -37,15 +37,8 @@ function About() {
                             to create user-friendly experiences.
                         </p>
 
-
-
-
-
-
-
-
-                        <a href="#portfolio" class="btn text-white bg-info contentText float-right smoothLink" id="myWork">My
-                            Work <i class="fas fa-arrow-circle-down"></i></a>
+                        <a href="#portfolio" className="btn text-white bg-info contentText float-right smoothLink" id="myWork">My
+                            Work <i className="fas fa-arrow-circle-down"></i></a>
 
                     </div>
                 </div>

@@ -19,7 +19,7 @@ function Homepage() {
             <About />
             <NavBar />
             <Portfolio />
-            {state.project = ! '' ? <Project /> : <></>}
+            {state.project =! '' ? <Project /> : <></>}
             <Footer />
         </>
     )
