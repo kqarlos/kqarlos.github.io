@@ -9,9 +9,11 @@ const { Provider } = StoreContext;
 const reducer = (state, action) => {
     switch (action.type) {
         case SET_PROJECT:
+            console.log("Global state set project", action.project)
+            console.log("Setting current project to ", state.projects[action.project])
             return {
                 ...state,
-                project: state[action.project],
+                currentProject: state.projects[action.project],
             };
         default:
             return state;
@@ -20,8 +22,18 @@ const reducer = (state, action) => {
 
 const StoreProvider = ({ value = [], ...props }) => {
     const [state, dispatch] = useReducer(reducer, {
-        currentProject: '',
-        projectDisplay: 'none',
+        currentProject: {
+            projectDisplay: 'block',
+            project: 'artiste',
+            name: "Artiste Affame",
+            description: "Full-stack MERN application allows users to immerse themselves in the life of a renaissance artist. Users can play games, draw and share their art.",
+            stack: ["React", "Node", "HTML", "CSS", "Javascript"],
+            stack2: ["MongoDB", "Mongoose", "Express", "Axios", "Materialize"],
+            snippetLink: "../../assets/images/artiste/",
+            repo: "https://github.com/kqarlos/artiste-affame",
+            deployed: "https://artiste-affame.herokuapp.com/",
+            src: "../../assets/images/artiste/artiste-live.gif"
+        },
         projects: {
             'artiste': {
                 projectDisplay: 'block',
@@ -30,10 +42,10 @@ const StoreProvider = ({ value = [], ...props }) => {
                 description: "Full-stack MERN application allows users to immerse themselves in the life of a renaissance artist. Users can play games, draw and share their art.",
                 stack: ["React", "Node", "HTML", "CSS", "Javascript"],
                 stack2: ["MongoDB", "Mongoose", "Express", "Axios", "Materialize"],
-                snippetLink: "assets/images/artiste/",
+                snippetLink: "../../assets/images/artiste/",
                 repo: "https://github.com/kqarlos/artiste-affame",
                 deployed: "https://artiste-affame.herokuapp.com/",
-                src: "assets/images/artiste/artiste-live.gif"
+                src: "../../assets/images/artiste/artiste-live.gif"
             },
             'electionYear': {
                 projectDisplay: 'block',
@@ -42,10 +54,10 @@ const StoreProvider = ({ value = [], ...props }) => {
                 description: "Full-stack application that allows to create an account and search for their representatives.",
                 stack: ["MySQL", "Express", "Node", "Bootstrap", "Axios", "HMTL", "CSS", "Javascript"],
                 stack2: ["Sequelize", "Handlebars", "Charts"],
-                snippetLink: "assets/images/election/",
+                snippetLink: "../../assets/images/election/",
                 repo: "https://github.com/kqarlos/election-year",
                 deployed: "https://electionyear2020.herokuapp.com/",
-                src: "assets/images/election/election-year-live.gif"
+                src: "../../assets/images/election/election-year-live.gif"
             },
             'memoryGame': {
                 projectDisplay: 'block',
@@ -54,10 +66,10 @@ const StoreProvider = ({ value = [], ...props }) => {
                 description: "Choose a game theme and start playing. Only click each image once. Click twice and it's game over",
                 stack: ["React", "Node", "Bootstrap", "Axios", "HTML", "CSS", "Javascript"],
                 stack2: ["React-Routing", "React-State"],
-                snippetLink: "assets/images/memory/",
+                snippetLink: "../../assets/images/memory/",
                 repo: "https://github.com/kqarlos/memory-game",
                 deployed: "https://kqarlos.github.io/memory-game/",
-                src: "assets/images/memory/memory-game-live.gif"
+                src: "../../assets/images/memory/memory-game-live.gif"
             },
             'noteTaker': {
                 projectDisplay: 'block',
@@ -66,10 +78,10 @@ const StoreProvider = ({ value = [], ...props }) => {
                 description: "Real-time note taking application. Take notes, update them, and delete them with this note-taker.",
                 stack: ["Node", "Express", "Bootstrap", "HTML", "CSS"],
                 stack2: ["Javascript"],
-                snippetLink: "assets/images/note/",
+                snippetLink: "../../assets/images/note/",
                 repo: "https://github.com/kqarlos/note-taker",
                 deployed: "https://note-taker2020.herokuapp.com/",
-                src: "assets/images/note/note-taker-live.gif"
+                src: "../../assets/images/note/note-taker-live.gif"
             },
             'googleLibrary': {
                 projectDisplay: 'block',
@@ -78,10 +90,10 @@ const StoreProvider = ({ value = [], ...props }) => {
                 description: "Search through Google Books API and keep a list of your favorite books.",
                 stack: ["MongoDB", "Express", "React", "Node", "Bootstrap", "Axios", "Mongoose"],
                 stack2: ["React-Reducer"],
-                snippetLink: "assets/images/google/",
+                snippetLink: "../../assets/images/google/",
                 repo: "https://github.com/kqarlos/google-library",
                 deployed: "https://google-library-mern.herokuapp.com/",
-                src: "assets/images/google/google-library-live.gif"
+                src: "../../assets/images/google/google-library-live.gif"
             },
             'passwordGenerator': {
                 projectDisplay: 'block',
@@ -89,9 +101,10 @@ const StoreProvider = ({ value = [], ...props }) => {
                 name: "Password Generator",
                 description: "Generates a random password based on user preferences and copies it to the clipboard.",
                 stack: ["HTML", "CSS", "Javascript", "Bootstrap"],
+                stack2: [],
                 repo: "https://github.com/kqarlos/password-generator",
                 deployed: "https://kqarlos.github.io/password-generator/",
-                src: "assets/images/password-generator.png"
+                src: "../../assets/images/password-generator.png"
             },
             'dayPlanner': {
                 projectDisplay: 'block',
@@ -99,9 +112,10 @@ const StoreProvider = ({ value = [], ...props }) => {
                 name: "Day Planner",
                 description: "A planner for day activities that saves information to local storage",
                 stack: ["HTML", "CSS", "Javascript", "Moment.js", "Bootstrap"],
+                stack2: [],
                 repo: "https://github.com/kqarlos/day-planner",
                 deployed: "https://kqarlos.github.io/day-planner/",
-                src: "assets/images/day-planner.png"
+                src: "../../assets/images/day-planner.png"
             },
             'weatherDashboard': {
                 projectDisplay: 'block',
@@ -109,9 +123,10 @@ const StoreProvider = ({ value = [], ...props }) => {
                 name: "Weather Dashboard",
                 description: "Displays current weather and forecast for a searched city.",
                 stack: ["HTML", "CSS", "Javascript", "Moment.js", "Bootstrap"],
+                stack2: [],
                 repo: "https://github.com/kqarlos/weather-dashboard",
                 deployed: "https://kqarlos.github.io/weather-dashboard/",
-                src: "assets/images/weather-live.gif"
+                src: "../../assets/images/weather-live.gif"
             },
             'dinnerParty': {
                 projectDisplay: 'block',
@@ -119,9 +134,10 @@ const StoreProvider = ({ value = [], ...props }) => {
                 name: "Dinner Party",
                 description: "Application that recommends a dish and a cocktail based on a protein choice",
                 stack: ["HTML", "CSS", "Javascript", "Materialize", "Bootstrap"],
+                stack2: [],
                 repo: "https://github.com/kqarlos/dinner-party",
                 deployed: "https://kqarlos.github.io/dinner-party/",
-                src: "assets/images/dinner-party-live.gif"
+                src: "../../assets/images/dinner-party-live.gif"
             },
             'shoppingBuddy': {
                 projectDisplay: 'block',
@@ -129,9 +145,10 @@ const StoreProvider = ({ value = [], ...props }) => {
                 name: "Shopping Buddy",
                 description: "Manage your shopping list on the go",
                 stack: ["HTML", "CSS", "Javascript", "Express", "Node", "Handlebars", "MySQL"],
+                stack2: [],
                 repo: "https://github.com/kqarlos/shopping-buddy",
                 deployed: "https://shopping-buddy2020.herokuapp.com/",
-                src: "assets/images//shopping/shopping-buddy.gif"
+                src: "../../assets/images//shopping/shopping-buddy.gif"
             },
         }
     });

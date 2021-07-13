@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import About from '../components/About'
 import NavBar from '../components/NavBar'
 import Portfolio from '../components/Portfolio'
@@ -12,6 +12,9 @@ function Homepage() {
 
     const [state, dispatch] = useStoreContext();
 
+    useEffect(() => {
+        console.log("state from homepage", state);
+    }, [state.currentProject])
 
     return (
         <>
@@ -19,7 +22,8 @@ function Homepage() {
             <About />
             <NavBar />
             <Portfolio />
-            {state.project =! '' ? <Project /> : <></>}
+            {/* {state.currentProject && <Project />} */}
+            <Project />
             <Footer />
         </>
     )

@@ -6,16 +6,10 @@ function Project() {
 
     const [state, dispatch] = useStoreContext();
 
-    useEffect(() => {
-        console.log(state)
-    }, [])
-
-
     return (
         <>
-            {
-                state.currentProject ==! '' &&
-                <div id="project" data-project={state.currentProject} style={{ display: state.projectDisplay }}>
+         
+                <div id="project" data-project={state.currentProject.project}>
 
                     {/* <!-- start grid --> */}
 
@@ -103,9 +97,9 @@ function Project() {
                         </div>
                         <div className="row">
                             <div className="col-12 h4 my-2">Links</div>
-                            <a className="col-12 link" style="text-decoration: none;" href={state.currentProject.repo} target="_blank"><i
+                            <a className="col-12 link" style={{ textDecoration: 'none' }} href={state.currentProject.repo} target="_blank"><i
                                 className="fab fa-github-alt"></i> {state.currentProject.repo}</a>
-                            <a className="col-12 link" style="text-decoration: none;" href={state.currentProject.deployed} target="_blank"><i
+                            <a className="col-12 link" style={{ textDecoration: 'none' }} href={state.currentProject.deployed} target="_blank"><i
                                 className="far fa-play-circle"></i> {state.currentProject.deployed}</a>
 
                         </div>
@@ -120,7 +114,7 @@ function Project() {
                     {/* <!-- end grid --> */}
 
                 </div>
-            }
+            
         </>
 
     )

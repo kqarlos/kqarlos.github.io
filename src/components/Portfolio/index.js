@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './style.css';
 import artisteImg from "../../assets/images/artiste/artiste.png";
 import electionYearImg from "../../assets/images/election/election-year.png";
@@ -20,16 +20,20 @@ function Portfolio() {
 
     const [state, dispatch] = useStoreContext();
 
+    useEffect(() => {
+        console.log("state from portfolio", state)
+    }, [])
+
     function handleClick(p) {
-        // dispatch({
-        //     type: SET_PROJECT,
-        //     project: p
-        // });
+        console.log("project clicked", p)
+        dispatch({
+            type: SET_PROJECT,
+            project: p
+        });
     }
 
     return (
 
-        // <div id="portfolio" style="display:{{portfolioDisplay}};">
         <div id="portfolio">
 
             {/* <!-- start grid 2--> */}
@@ -51,7 +55,7 @@ function Portfolio() {
                         <div className="card text-center">
                             <img className="card-img-top" src={artisteImg} alt="Drawing on a canvas" />
                             <div className="card-body projectCard">
-                                <a href="#project" onClick={handleClick('artiste')}className="btn text-white bg-info contentText w-100 rightCorners">Artiste
+                                <a href="#project" onClick={()=>handleClick('artiste')} className="btn text-white bg-info contentText w-100 rightCorners">Artiste
                                     Affame</a>
                                 <p className="card-text m-2">Live the life of a starving artist in Artiste Affame!</p>
                             </div>
@@ -62,7 +66,7 @@ function Portfolio() {
                         <div className="card text-center">
                             <img className="card-img-top" src={electionYearImg} alt="Campaign contributions chart" />
                             <div className="card-body projectCard">
-                                <a href="/electionYear" className="btn text-white bg-info contentText w-100 rightCorners">Election
+                                <a href="#project" onClick={()=>handleClick('electionYear')} className="btn text-white bg-info contentText w-100 rightCorners">Election
                                     Year</a>
                                 <p className="card-text m-2">Political app to keep track of your federal representatives</p>
                             </div>
@@ -73,7 +77,7 @@ function Portfolio() {
                         <div className="card  text-center">
                             <img className="card-img-top" src={googleLibraryImg} alt="Google books search result" />
                             <div className="card-body projectCard">
-                                <a href="/googleLibrary" className="btn text-white bg-info contentText w-100 rightCorners">Google
+                                <a href="#project" onClick={()=>handleClick('googleLibrary')} className="btn text-white bg-info contentText w-100 rightCorners">Google
                                     Book
                                     Library</a>
                                 <p className="card-text m-2">Search through Google Books API and keep a list of your favorite books.
@@ -90,7 +94,7 @@ function Portfolio() {
                         <div className="card text-center">
                             <img className="card-img-top" src={memoryGameImg} alt="Memory game" />
                             <div className="card-body projectCard">
-                                <a href="/memoryGame" className="btn text-white bg-info contentText w-100 rightCorners">Memory
+                                <a href="#project" onClick={()=>handleClick('memoryGame')} className="btn text-white bg-info contentText w-100 rightCorners">Memory
                                     Game</a>
                                 <p className="card-text m-2">Card matching game to test your memory skills</p>
                             </div>
@@ -101,7 +105,7 @@ function Portfolio() {
                         <div className="card text-center">
                             <img className="card-img-top" src={codeQuizImg} alt="Note taker" />
                             <div className="card-body projectCard">
-                                <a href="/noteTaker" className="btn text-white bg-info contentText w-100 rightCorners">Note Taker</a>
+                                <a href="#project" onClick={()=>handleClick('noteTaker')} className="btn text-white bg-info contentText w-100 rightCorners">Note Taker</a>
                                 <p className="card-text m-2">Real-time note taking application</p>
                             </div>
                         </div>
@@ -111,7 +115,7 @@ function Portfolio() {
                         <div className="card text-center">
                             <img className="card-img-top" src={dinnerPartyImg} alt="Dinner Party" />
                             <div className="card-body projectCard">
-                                <a href="/dinnerParty" className="btn text-white bg-info contentText w-100 rightCorners">Dinner Party</a>
+                                <a href="#project" onClick={()=>handleClick('dinnerParty')} className="btn text-white bg-info contentText w-100 rightCorners">Dinner Party</a>
                                 <p className="card-text m-2">Let our API digging recommend your next meal</p>
                             </div>
                         </div>
@@ -121,7 +125,7 @@ function Portfolio() {
                         <div className="card text-center">
                             <img className="card-img-top" src={shoppingBuddyImg} alt="Shopping Buddy" />
                             <div className="card-body projectCard">
-                                <a href="/shoppingBuddy" className="btn text-white bg-info contentText w-100 rightCorners">Shopping Buddy</a>
+                                <a href="#project" onClick={()=>handleClick('shoppingBuddy')} className="btn text-white bg-info contentText w-100 rightCorners">Shopping Buddy</a>
                                 <p className="card-text m-2">Create a shopping list. Add and delete items from your list on the go!
                                 </p>
                             </div>
@@ -137,7 +141,7 @@ function Portfolio() {
                         <div className="card text-center">
                             <img className="card-img-top" src={passGenImg} alt="Password Generator" />
                             <div className="card-body projectCard">
-                                <a href="/passwordGenerator" className="btn text-white bg-info contentText w-100 rightCorners">Password
+                                <a href="#project" onClick={()=>handleClick('passwordGenerator')} className="btn text-white bg-info contentText w-100 rightCorners">Password
                                     Generator</a>
                                 <p className="card-text m-2">Generate a password according to your specifications</p>
                             </div>
@@ -148,7 +152,7 @@ function Portfolio() {
                         <div className="card text-center">
                             <img className="card-img-top" src={dayPlannerImg} alt="Day Planner" />
                             <div className="card-body projectCard">
-                                <a href="/dayPlanner" className="btn text-white bg-info contentText w-100 rightCorners">Day Planner</a>
+                                <a href="#project" onClick={()=>handleClick('dayPlanner')} className="btn text-white bg-info contentText w-100 rightCorners">Day Planner</a>
                                 <p className="card-text m-2">Plan your day in real time</p>
                             </div>
                         </div>
@@ -158,7 +162,7 @@ function Portfolio() {
                         <div className="card text-center">
                             <img className="card-img-top" src={weatherDashImg} alt="Weather Dashboard" />
                             <div className="card-body projectCard">
-                                <a href="/weatherDashboard" className="btn text-white bg-info contentText w-100 rightCorners">Weather
+                                <a href="#project" onClick={()=>handleClick('weatherDashboard')} className="btn text-white bg-info contentText w-100 rightCorners">Weather
                                     Dashboard</a>
                                 <p className="card-text m-2">Check your local weather and keep track of your favorite cities</p>
                             </div>
