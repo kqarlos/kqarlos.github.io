@@ -21,10 +21,10 @@ function Portfolio() {
     const [state, dispatch] = useStoreContext();
 
     function handleClick(p) {
-        dispatch({
-            type: SET_PROJECT,
-            project: p
-        });
+        // dispatch({
+        //     type: SET_PROJECT,
+        //     project: p
+        // });
     }
 
     return (

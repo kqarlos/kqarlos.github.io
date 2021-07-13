@@ -1,12 +1,11 @@
-import React, { useEffect } from 'react';
-import './style.css';
-import About from './components/About'
-import NavBar from './components/NavBar'
-import Portfolio from './components/Portfolio'
-import Footer from './components/Footer'
-import TopButton from './components/TopButton';
-import Project from './components/Project';
-import { useStoreContext } from "../../utils/GlobalState"
+import React from 'react';
+import About from '../components/About'
+import NavBar from '../components/NavBar'
+import Portfolio from '../components/Portfolio'
+import Footer from '../components/Footer'
+import TopButton from '../components/TopButton';
+import Project from '../components/Project';
+import { useStoreContext } from "../utils/GlobalState"
 
 function Homepage() {
 
