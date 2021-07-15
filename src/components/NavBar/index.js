@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css'
+import resume from '../../assets/pdf/resume.pdf';
+import coverLetter from '../../assets/pdf/resume.pdf';
 
 function NavBar() {
 
@@ -17,10 +19,10 @@ function NavBar() {
                         <a className="nav-link contentText text-white smoothLink" href="#portfolio">Portfolio</a>
                     </li>
                     <li className="nav-item border-right">
-                        <a className="nav-link contentText text-white" target="_blank" href="assets/pdf/resume.pdf">Resume</a>
+                        <a className="nav-link contentText text-white" target="_blank" href={resume}>Resume</a>
                     </li>
                     <li className="nav-item border-right">
-                        <a className="nav-link contentText text-white" target="_blank" href="assets/pdf/cover-letter.pdf">Cover
+                        <a className="nav-link contentText text-white" target="_blank" href={coverLetter}>Cover
                             Letter</a>
                     </li>
                     <li className="nav-item border-right">
