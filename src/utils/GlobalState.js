@@ -2,6 +2,7 @@ import React, { createContext, useReducer, useContext } from "react";
 import {
     SET_PROJECT
 } from "./actions";
+import { GIFS } from './images';
 
 const StoreContext = createContext();
 const { Provider } = StoreContext;
@@ -32,7 +33,7 @@ const StoreProvider = ({ value = [], ...props }) => {
             snippetLink: "../../assets/images/artiste/",
             repo: "https://github.com/kqarlos/artiste-affame",
             deployed: "https://artiste-affame.herokuapp.com/",
-            src: "../../assets/images/artiste/artiste-live.gif"
+            src: GIFS.ARTISTEGIF
         },
         projects: {
             'artiste': {
@@ -45,7 +46,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 snippetLink: "../../assets/images/artiste/",
                 repo: "https://github.com/kqarlos/artiste-affame",
                 deployed: "https://artiste-affame.herokuapp.com/",
-                src: "../../assets/images/artiste/artiste-live.gif"
+                src: GIFS.ARTISTEGIF
             },
             'electionYear': {
                 projectDisplay: 'block',
@@ -57,7 +58,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 snippetLink: "../../assets/images/election/",
                 repo: "https://github.com/kqarlos/election-year",
                 deployed: "https://electionyear2020.herokuapp.com/",
-                src: "../../assets/images/election/election-year-live.gif"
+                src: GIFS.ELECTIONGIF
             },
             'memoryGame': {
                 projectDisplay: 'block',
@@ -69,7 +70,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 snippetLink: "../../assets/images/memory/",
                 repo: "https://github.com/kqarlos/memory-game",
                 deployed: "https://kqarlos.github.io/memory-game/",
-                src: "../../assets/images/memory/memory-game-live.gif"
+                src: GIFS.MEMORYGIF
             },
             'noteTaker': {
                 projectDisplay: 'block',
@@ -81,7 +82,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 snippetLink: "../../assets/images/note/",
                 repo: "https://github.com/kqarlos/note-taker",
                 deployed: "https://note-taker2020.herokuapp.com/",
-                src: "../../assets/images/note/note-taker-live.gif"
+                src: GIFS.NOTEGIF
             },
             'googleLibrary': {
                 projectDisplay: 'block',
@@ -93,7 +94,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 snippetLink: "../../assets/images/google/",
                 repo: "https://github.com/kqarlos/google-library",
                 deployed: "https://google-library-mern.herokuapp.com/",
-                src: "../../assets/images/google/google-library-live.gif"
+                src: GIFS.GOOGLEGIF
             },
             'passwordGenerator': {
                 projectDisplay: 'block',
@@ -104,7 +105,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 stack2: [],
                 repo: "https://github.com/kqarlos/password-generator",
                 deployed: "https://kqarlos.github.io/password-generator/",
-                src: "../../assets/images/password-generator.png"
+                src: GIFS.PASSWORDGIF
             },
             'dayPlanner': {
                 projectDisplay: 'block',
@@ -115,7 +116,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 stack2: [],
                 repo: "https://github.com/kqarlos/day-planner",
                 deployed: "https://kqarlos.github.io/day-planner/",
-                src: "../../assets/images/day-planner.png"
+                src: GIFS.DAYPLANNERGIF
             },
             'weatherDashboard': {
                 projectDisplay: 'block',
@@ -126,7 +127,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 stack2: [],
                 repo: "https://github.com/kqarlos/weather-dashboard",
                 deployed: "https://kqarlos.github.io/weather-dashboard/",
-                src: "../../assets/images/weather-live.gif"
+                src: GIFS.WEATHERGIF
             },
             'dinnerParty': {
                 projectDisplay: 'block',
@@ -137,7 +138,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 stack2: [],
                 repo: "https://github.com/kqarlos/dinner-party",
                 deployed: "https://kqarlos.github.io/dinner-party/",
-                src: "../../assets/images/dinner-party-live.gif"
+                src: GIFS.DINNERGIF
             },
             'shoppingBuddy': {
                 projectDisplay: 'block',
@@ -148,7 +149,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 stack2: [],
                 repo: "https://github.com/kqarlos/shopping-buddy",
                 deployed: "https://shopping-buddy2020.herokuapp.com/",
-                src: "../../assets/images//shopping/shopping-buddy.gif"
+                src: GIFS.SHOPPINGGIF
             },
         }
     });
