@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.67151cb7.chunk.css",
-    "main.js": "/static/js/main.2501c41d.chunk.js",
-    "main.js.map": "/static/js/main.2501c41d.chunk.js.map",
+    "main.js": "/static/js/main.b7e39b57.chunk.js",
+    "main.js.map": "/static/js/main.b7e39b57.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7dc195fa.js",
     "runtime-main.js.map": "/static/js/runtime-main.7dc195fa.js.map",
     "static/js/2.88360fa1.chunk.js": "/static/js/2.88360fa1.chunk.js",
@@ -12,10 +12,22 @@
     "index.html": "/index.html",
     "static/css/main.67151cb7.chunk.css.map": "/static/css/main.67151cb7.chunk.css.map",
     "static/js/2.88360fa1.chunk.js.LICENSE.txt": "/static/js/2.88360fa1.chunk.js.LICENSE.txt",
+    "static/media/Axios.25c6a0f8.jpg": "/static/media/Axios.25c6a0f8.jpg",
+    "static/media/Charts.ce032c54.jpg": "/static/media/Charts.ce032c54.jpg",
+    "static/media/Express.26ed8584.jpg": "/static/media/Express.26ed8584.jpg",
+    "static/media/Handlebars.75a8b35e.jpg": "/static/media/Handlebars.75a8b35e.jpg",
+    "static/media/Javascript.c9101365.jpg": "/static/media/Javascript.c9101365.jpg",
+    "static/media/Materialize.3fbc727c.jpg": "/static/media/Materialize.3fbc727c.jpg",
+    "static/media/MongoDB.17c1160a.jpg": "/static/media/MongoDB.17c1160a.jpg",
+    "static/media/Mongoose.9bc6f726.jpg": "/static/media/Mongoose.9bc6f726.jpg",
+    "static/media/React-Reducer.1464bb64.jpg": "/static/media/React-Reducer.1464bb64.jpg",
+    "static/media/React-Routing.f78f0598.jpg": "/static/media/React-Routing.f78f0598.jpg",
+    "static/media/React-State.34649357.jpg": "/static/media/React-State.34649357.jpg",
+    "static/media/Sequelize.f62a9490.jpg": "/static/media/Sequelize.f62a9490.jpg",
     "static/media/artiste-live.83500cb8.gif": "/static/media/artiste-live.83500cb8.gif",
     "static/media/artiste.e884a27d.png": "/static/media/artiste.e884a27d.png",
     "static/media/day-planner.a05397a0.png": "/static/media/day-planner.a05397a0.png",
-    "static/media/dinner-party-live.d9bae278.gif": "/static/media/dinner-party-live.d9bae278.gif",
+    "static/media/dinner-party-live.166f1b3e.gif": "/static/media/dinner-party-live.166f1b3e.gif",
     "static/media/dinner-party.8282fb0b.png": "/static/media/dinner-party.8282fb0b.png",
     "static/media/election-year-live.5bddce99.gif": "/static/media/election-year-live.5bddce99.gif",
     "static/media/election-year.53bddb64.png": "/static/media/election-year.53bddb64.png",
@@ -27,16 +39,17 @@
     "static/media/note-taker-live.dabf179d.gif": "/static/media/note-taker-live.dabf179d.gif",
     "static/media/note-taker.2273c5f7.png": "/static/media/note-taker.2273c5f7.png",
     "static/media/password-generator.cf494acc.png": "/static/media/password-generator.cf494acc.png",
+    "static/media/resume.c8fb87cd.pdf": "/static/media/resume.c8fb87cd.pdf",
     "static/media/shopping-buddy.b9a999b5.png": "/static/media/shopping-buddy.b9a999b5.png",
     "static/media/shopping-buddy.dd1c5fb1.gif": "/static/media/shopping-buddy.dd1c5fb1.gif",
-    "static/media/weather-dashboard.785a1cdf.png": "/static/media/weather-dashboard.785a1cdf.png",
-    "static/media/weather-live.46eb3fab.gif": "/static/media/weather-live.46eb3fab.gif",
+    "static/media/weather-dashboard.803ede71.png": "/static/media/weather-dashboard.803ede71.png",
+    "static/media/weather-live.c8464b56.gif": "/static/media/weather-live.c8464b56.gif",
     "static/media/style.css": "/static/media/welcome.e77b1a2b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7dc195fa.js",
     "static/js/2.88360fa1.chunk.js",
     "static/css/main.67151cb7.chunk.css",
-    "static/js/main.2501c41d.chunk.js"
+    "static/js/main.b7e39b57.chunk.js"
   ]
 }
