@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.67151cb7.chunk.css",
-    "main.js": "/static/js/main.2f38405a.chunk.js",
-    "main.js.map": "/static/js/main.2f38405a.chunk.js.map",
+    "main.js": "/static/js/main.2501c41d.chunk.js",
+    "main.js.map": "/static/js/main.2501c41d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7dc195fa.js",
     "runtime-main.js.map": "/static/js/runtime-main.7dc195fa.js.map",
     "static/js/2.88360fa1.chunk.js": "/static/js/2.88360fa1.chunk.js",
@@ -12,23 +12,31 @@
     "index.html": "/index.html",
     "static/css/main.67151cb7.chunk.css.map": "/static/css/main.67151cb7.chunk.css.map",
     "static/js/2.88360fa1.chunk.js.LICENSE.txt": "/static/js/2.88360fa1.chunk.js.LICENSE.txt",
+    "static/media/artiste-live.83500cb8.gif": "/static/media/artiste-live.83500cb8.gif",
     "static/media/artiste.e884a27d.png": "/static/media/artiste.e884a27d.png",
     "static/media/day-planner.a05397a0.png": "/static/media/day-planner.a05397a0.png",
+    "static/media/dinner-party-live.d9bae278.gif": "/static/media/dinner-party-live.d9bae278.gif",
     "static/media/dinner-party.8282fb0b.png": "/static/media/dinner-party.8282fb0b.png",
+    "static/media/election-year-live.5bddce99.gif": "/static/media/election-year-live.5bddce99.gif",
     "static/media/election-year.53bddb64.png": "/static/media/election-year.53bddb64.png",
+    "static/media/google-library-live.e26e7ba4.gif": "/static/media/google-library-live.e26e7ba4.gif",
     "static/media/google-library.f6be4712.png": "/static/media/google-library.f6be4712.png",
     "static/media/headshot.91eb1012.jpg": "/static/media/headshot.91eb1012.jpg",
+    "static/media/memory-game-live.8a4b2264.gif": "/static/media/memory-game-live.8a4b2264.gif",
     "static/media/memory-game.3df150a8.png": "/static/media/memory-game.3df150a8.png",
+    "static/media/note-taker-live.dabf179d.gif": "/static/media/note-taker-live.dabf179d.gif",
     "static/media/note-taker.2273c5f7.png": "/static/media/note-taker.2273c5f7.png",
     "static/media/password-generator.cf494acc.png": "/static/media/password-generator.cf494acc.png",
     "static/media/shopping-buddy.b9a999b5.png": "/static/media/shopping-buddy.b9a999b5.png",
+    "static/media/shopping-buddy.dd1c5fb1.gif": "/static/media/shopping-buddy.dd1c5fb1.gif",
     "static/media/weather-dashboard.785a1cdf.png": "/static/media/weather-dashboard.785a1cdf.png",
+    "static/media/weather-live.46eb3fab.gif": "/static/media/weather-live.46eb3fab.gif",
     "static/media/style.css": "/static/media/welcome.e77b1a2b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7dc195fa.js",
     "static/js/2.88360fa1.chunk.js",
     "static/css/main.67151cb7.chunk.css",
-    "static/js/main.2f38405a.chunk.js"
+    "static/js/main.2501c41d.chunk.js"
   ]
 }
