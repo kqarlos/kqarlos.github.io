@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.67151cb7.chunk.css",
-    "main.js": "/static/js/main.b7e39b57.chunk.js",
-    "main.js.map": "/static/js/main.b7e39b57.chunk.js.map",
+    "main.js": "/static/js/main.6a22e17a.chunk.js",
+    "main.js.map": "/static/js/main.6a22e17a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7dc195fa.js",
     "runtime-main.js.map": "/static/js/runtime-main.7dc195fa.js.map",
     "static/js/2.88360fa1.chunk.js": "/static/js/2.88360fa1.chunk.js",
@@ -26,6 +26,7 @@
     "static/media/Sequelize.f62a9490.jpg": "/static/media/Sequelize.f62a9490.jpg",
     "static/media/artiste-live.83500cb8.gif": "/static/media/artiste-live.83500cb8.gif",
     "static/media/artiste.e884a27d.png": "/static/media/artiste.e884a27d.png",
+    "static/media/cover-letter.90f20a4f.pdf": "/static/media/cover-letter.90f20a4f.pdf",
     "static/media/day-planner.a05397a0.png": "/static/media/day-planner.a05397a0.png",
     "static/media/dinner-party-live.166f1b3e.gif": "/static/media/dinner-party-live.166f1b3e.gif",
     "static/media/dinner-party.8282fb0b.png": "/static/media/dinner-party.8282fb0b.png",
@@ -50,6 +51,6 @@
     "static/js/runtime-main.7dc195fa.js",
     "static/js/2.88360fa1.chunk.js",
     "static/css/main.67151cb7.chunk.css",
-    "static/js/main.b7e39b57.chunk.js"
+    "static/js/main.6a22e17a.chunk.js"
   ]
 }
