@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
 import resume from '../../assets/pdf/resume.pdf';
-import coverLetter from '../../assets/pdf/resume.pdf';
+import coverLetter from '../../assets/pdf/cover-letter.pdf';
 
 function NavBar() {
 
