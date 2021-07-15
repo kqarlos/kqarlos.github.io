@@ -2,7 +2,10 @@ import React, { createContext, useReducer, useContext } from "react";
 import {
     SET_PROJECT
 } from "./actions";
-import { GIFS } from './images';
+import {
+    GIFS, ARTISTESNIPPETS,
+    ELECTIONSNIPPETS, MEMORYSNIPPETS, NOTESNIPPETS, GOOGLESNIPPETS
+} from './images';
 
 const StoreContext = createContext();
 const { Provider } = StoreContext;
@@ -30,7 +33,8 @@ const StoreProvider = ({ value = [], ...props }) => {
             description: "Full-stack MERN application allows users to immerse themselves in the life of a renaissance artist. Users can play games, draw and share their art.",
             stack: ["React", "Node", "HTML", "CSS", "Javascript"],
             stack2: ["MongoDB", "Mongoose", "Express", "Axios", "Materialize"],
-            snippetLink: "../../assets/images/artiste/",
+            stack2Snippets: [ARTISTESNIPPETS.ARTISTEMONGODB, ARTISTESNIPPETS.ARTISTEMONGOOSE,
+            ARTISTESNIPPETS.ARTISTEEXPRESS, ARTISTESNIPPETS.ARTISTEAXIOS, ARTISTESNIPPETS.ARTISTEMATERIALIZE],
             repo: "https://github.com/kqarlos/artiste-affame",
             deployed: "https://artiste-affame.herokuapp.com/",
             src: GIFS.ARTISTEGIF
@@ -43,7 +47,8 @@ const StoreProvider = ({ value = [], ...props }) => {
                 description: "Full-stack MERN application allows users to immerse themselves in the life of a renaissance artist. Users can play games, draw and share their art.",
                 stack: ["React", "Node", "HTML", "CSS", "Javascript"],
                 stack2: ["MongoDB", "Mongoose", "Express", "Axios", "Materialize"],
-                snippetLink: "../../assets/images/artiste/",
+                stack2Snippets: [ARTISTESNIPPETS.ARTISTEMONGODB, ARTISTESNIPPETS.ARTISTEMONGOOSE,
+                ARTISTESNIPPETS.ARTISTEEXPRESS, ARTISTESNIPPETS.ARTISTEAXIOS, ARTISTESNIPPETS.ARTISTEMATERIALIZE],
                 repo: "https://github.com/kqarlos/artiste-affame",
                 deployed: "https://artiste-affame.herokuapp.com/",
                 src: GIFS.ARTISTEGIF
@@ -55,7 +60,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 description: "Full-stack application that allows to create an account and search for their representatives.",
                 stack: ["MySQL", "Express", "Node", "Bootstrap", "Axios", "HMTL", "CSS", "Javascript"],
                 stack2: ["Sequelize", "Handlebars", "Charts"],
-                snippetLink: "../../assets/images/election/",
+                stack2Snippets: [ELECTIONSNIPPETS.ELECTIONSEQUELIZE, ELECTIONSNIPPETS.ELECTIONHANDLEBARS, ELECTIONSNIPPETS.ELECTIONCHARTS],
                 repo: "https://github.com/kqarlos/election-year",
                 deployed: "https://electionyear2020.herokuapp.com/",
                 src: GIFS.ELECTIONGIF
@@ -67,7 +72,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 description: "Choose a game theme and start playing. Only click each image once. Click twice and it's game over",
                 stack: ["React", "Node", "Bootstrap", "Axios", "HTML", "CSS", "Javascript"],
                 stack2: ["React-Routing", "React-State"],
-                snippetLink: "../../assets/images/memory/",
+                stack2Snippets: [MEMORYSNIPPETS.MEMORYRR, MEMORYSNIPPETS.MEMORYRS],
                 repo: "https://github.com/kqarlos/memory-game",
                 deployed: "https://kqarlos.github.io/memory-game/",
                 src: GIFS.MEMORYGIF
@@ -79,7 +84,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 description: "Real-time note taking application. Take notes, update them, and delete them with this note-taker.",
                 stack: ["Node", "Express", "Bootstrap", "HTML", "CSS"],
                 stack2: ["Javascript"],
-                snippetLink: "../../assets/images/note/",
+                stack2Snippets: [NOTESNIPPETS.NOTEJS],
                 repo: "https://github.com/kqarlos/note-taker",
                 deployed: "https://note-taker2020.herokuapp.com/",
                 src: GIFS.NOTEGIF
@@ -91,7 +96,7 @@ const StoreProvider = ({ value = [], ...props }) => {
                 description: "Search through Google Books API and keep a list of your favorite books.",
                 stack: ["MongoDB", "Express", "React", "Node", "Bootstrap", "Axios", "Mongoose"],
                 stack2: ["React-Reducer"],
-                snippetLink: "../../assets/images/google/",
+                stack2Snippets: [GOOGLESNIPPETS.GOOGLERR],
                 repo: "https://github.com/kqarlos/google-library",
                 deployed: "https://google-library-mern.herokuapp.com/",
                 src: GIFS.GOOGLEGIF
