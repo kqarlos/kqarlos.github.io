@@ -6,6 +6,24 @@ function Project() {
 
     const [state, dispatch] = useStoreContext();
 
+    const [projectState, setProjectState] = useState({
+        stack2Snippets: state.currentProject.stack2Snippets || [],
+        currentIndex: 0
+    });
+
+    function handleClick(e) {
+        console.log("project state", projectState.stack2Snippets)
+        console.log("state snippets", state.currentProject.stack2Snippets)
+        console.log("clicked snippet", e.target.attributes['index'].value)
+        let index = e.target.attributes['index'].value;
+        setProjectState({
+            ...state,
+            stack2Snippets: state.currentProject.stack2Snippets || [],
+            currentIndex: index
+        })
+    }
+
+
     return (
         <>
 
@@ -54,14 +72,14 @@ function Project() {
                                         {state.currentProject.stack2.map((stack, i) => {
                                             if (i === 0) {
                                                 return (
-                                                    <a className="list-group-item list-group-item-action active" id={stack} data-toggle="list"
-                                                        href={`#list-${stack}`} role="tab" aria-controls={stack}>{stack}</a>
+                                                    <a className="list-group-item list-group-item-action active" onClick={handleClick} id={stack} data-toggle="list"
+                                                        href={`#list-${stack}`} key={i} index={i} role="tab" aria-controls={stack}>{stack}</a>
                                                 )
                                             }
                                             else {
                                                 return (
-                                                    <a className="list-group-item list-group-item-action" id={stack} data-toggle="list"
-                                                        href={`#list-${stack}`} role="tab" aria-controls={stack}>{stack}</a>
+                                                    <a className="list-group-item list-group-item-action" onClick={handleClick} id={stack} data-toggle="list"
+                                                        href={`#list-${stack}`} key={i} index={i} role="tab" aria-controls={stack}>{stack}</a>
                                                 )
                                             }
                                         })}
@@ -73,21 +91,8 @@ function Project() {
                                 <div className="col-md-8">
                                     <div className="tab-content" id="nav-tabContent">
 
-                                        {state.currentProject.stack2.map((stack, i) => {
-                                            if (i === 0) {
-                                                return (
-                                                    <img className="tab-pane fade show active codeSnippet" id={`#list-${stack}`} role="tabpanel"
-                                                        aria-labelledby={stack} src={`${state.currentProject.stack2Snippets[i]}`} alt="Code Snippet" />
-                                                )
-                                            }
-                                            else {
-                                                return (
-                                                    <img className=" tab-pane fade codeSnippet" id={`#list-${stack}`} role="tabpanel" aria-labelledby={stack}
-                                                        src={`${state.currentProject.stack2Snippets[i]}`} alt="Code Snippet" />
-                                                )
-                                            }
-
-                                        })}
+                                        {state.currentProject.stack2Snippets && <img className="codeSnippet" id={`#list-${projectState.currentIndex}`} role="tabpanel" aria-labelledby={projectState.currentIndex}
+                                            src={state.currentProject.stack2Snippets[projectState.currentIndex]} alt="Code Snippet" />}
 
                                     </div>
                                 </div>
