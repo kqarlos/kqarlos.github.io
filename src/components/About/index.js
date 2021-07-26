@@ -9,7 +9,7 @@ function About() {
         <div id="about">
 
             {/* <!-- start grid 1--> */}
-            <div className="container p-4 bg-white border content" style={{backgroundImage: `url('assets/images/beanstalk.png')`}}>
+            <div className="container p-4 bg-white border">
 
                 {/* <!-- first row / title --> */}
                 <div className="row mb-1">

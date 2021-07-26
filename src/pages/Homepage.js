@@ -22,7 +22,6 @@ function Homepage() {
             <About />
             <NavBar />
             <Portfolio />
-            {/* {state.currentProject && <Project />} */}
             <Project />
             <Footer />
         </>
