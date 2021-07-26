@@ -19,8 +19,7 @@ function About() {
                         <div className="welcomeHeader">I'm Carlos</div>
                         <div className="welcomeHeader2">A Full Stack Web Developer</div>
 
-                        <a href="#portfolio" className="btn text-white bg-info contentText float-right smoothLink" id="myWork">My
-                            Work <i className="fas fa-arrow-circle-down"></i></a>
+                        <a href="#about" className="btn text-white bg-info contentText float-right smoothLink" id="myWork">About me <i className="fas fa-arrow-circle-down"></i></a>
 
                     </div>
                 </div>
