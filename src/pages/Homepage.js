@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Welcome from '../components/Welcome'
 import About from '../components/About'
 import NavBar from '../components/NavBar'
 import Portfolio from '../components/Portfolio'
@@ -19,8 +20,9 @@ function Homepage() {
     return (
         <>
             <TopButton />
-            <About />
+            <Welcome />
             <NavBar />
+            <About />
             <Portfolio />
             <Project />
             <Footer />
