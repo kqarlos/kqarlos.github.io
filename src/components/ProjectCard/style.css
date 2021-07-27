@@ -1,0 +1,21 @@
+.card {
+    height: 100%;
+    width: 100%;
+}
+
+.projectCard {
+    padding: 0px;
+}
+
+.rightCorners {
+    border-radius: 0px;
+    border: 0px;
+}
+
+.projectBtn {
+    opacity: 0.5;
+}
+  
+.projectBtn:hover {
+    opacity: 1.0;
+}

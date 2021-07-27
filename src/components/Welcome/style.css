@@ -13,11 +13,11 @@
     /* margin: 5px 15px 5px 0px; */
 } 
   
-.welcomeHeader {
+.welcomeH1 {
       font-size: 6rem;
 }
 
-.welcomeHeader2 {
+.welcomeH2 {
     font-size: 2rem;
 }
 
@@ -33,4 +33,11 @@
         margin: 0 auto;
     }   */
     
+    .welcomeH1 {
+        font-size: 3rem;
+    }
+    .welcomeH2 {
+        font-size: 1rem;
+    }
+
 }
