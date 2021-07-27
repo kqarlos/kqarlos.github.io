@@ -8,20 +8,17 @@ function About() {
 
         <div id="about">
 
-            {/* <!-- start grid 1--> */}
-            <div className="container p-4 bg-white border">
+            <main className="container p-4 bg-white border">
 
-                {/* <!-- first row / title --> */}
                 <div className="row mb-1">
                     <div className="col-md-12 pb-1">
                         <p className="font-weight-bold text-info border-bottom pb-3 headingText">About Me</p>
                     </div>
                 </div>
 
-                {/* <!-- second row / content --> */}
                 <div className="row">
-                    <div className="col-12 text-secondary">
-                        <img className="rounded float-left" id="headshot2" src={headshot} alt="Headshot" />
+                    <article className="col-12 text-secondary">
+                        <img className="rounded float-left pb-1" id="headshot2" src={headshot} alt="Headshot" />
                         <p className="contentText">
                             Full-Stack Web Developer with a B.S. in Software Engineering and a minor in Mathematics from San
                             Jose State University. I recently graduated from the University of California, Berkeley Extension with
@@ -37,16 +34,14 @@ function About() {
                             to create user-friendly experiences.
                         </p>
 
-                        <a href="#portfolio" className="btn text-white bg-info contentText float-right smoothLink" id="myWork">My
+                        <a href="#portfolio" className="btn text-white bg-info contentText float-right" id="myWork">My
                             Work <i className="fas fa-arrow-circle-down"></i></a>
 
-                    </div>
+                    </article>
                 </div>
 
-                {/* <!-- end content --> */}
 
-            </div>
-            {/* <!-- end grid 1--> */}
+            </main>
         </div>
     )
 }
