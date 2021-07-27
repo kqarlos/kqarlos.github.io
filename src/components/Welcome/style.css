@@ -12,6 +12,11 @@
     max-width: 100%;
     /* margin: 5px 15px 5px 0px; */
 } 
+
+#imgContainer {
+    display: flex;
+    align-items: center;
+}
   
 .welcomeH1 {
       font-size: 6rem;
@@ -25,13 +30,19 @@
     background-color: rgba(255, 255, 255, 0.75);
 }
 
+@media screen and (max-width: 768px) {
+    
+    .welcomeH1 {
+        font-size: 4rem;
+        line-height: normal;
+    }
+    .welcomeH2 {
+        font-size: 1.5rem;
+    }
+
+}
 
 @media screen and (max-width: 576px) {
-
-    /* #headshot {
-        width: 100%;
-        margin: 0 auto;
-    }   */
     
     .welcomeH1 {
         font-size: 3rem;
@@ -39,5 +50,10 @@
     .welcomeH2 {
         font-size: 1rem;
     }
+    #welcome {
+        padding: 15px;
+    }
 
 }
+
+

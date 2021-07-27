@@ -21,7 +21,7 @@ function About() {
                 {/* <!-- second row / content --> */}
                 <div className="row">
                     <div className="col-12 text-secondary">
-                        <img className="rounded float-left" id="headshot" src={headshot} alt="Headshot" />
+                        <img className="rounded float-left" id="headshot2" src={headshot} alt="Headshot" />
                         <p className="contentText">
                             Full-Stack Web Developer with a B.S. in Software Engineering and a minor in Mathematics from San
                             Jose State University. I recently graduated from the University of California, Berkeley Extension with
