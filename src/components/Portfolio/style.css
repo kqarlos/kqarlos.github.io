@@ -26,3 +26,9 @@
 .projectBtn:hover {
     opacity: 1.0;
 }
+
+.portfolioContent {
+  width: 87%;
+  margin: 0 auto;
+  min-height: calc(110vh - 265px);
+}
