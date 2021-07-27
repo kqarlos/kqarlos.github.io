@@ -1,3 +1,7 @@
+:root {
+  --navbarH: 68px;
+}
+
 html {
   scroll-behavior: smooth;
 }

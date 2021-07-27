@@ -1,14 +1,18 @@
 #project{
     display: 'none';
-    padding-top: 7%;    
+    padding-bottom: 15px;
+    padding-top: calc(var(--navbarH) + 15px);
     background-image: url("../../assets/images/beanstalk.png");
-    padding-bottom: calc(1rem * 2);
-  }
+ }
 
 .codeSnippet {
     max-width: 100%;
-    /* display: inline-block; */
-    /* object-fit: cover; */
-    /* overflow:  hidden; */
+}
+
+@media screen and (max-width: 768px) {
+
+  #project {
+    padding: calc(var(--navbarH) + 15px) 15px 5px;
+  }
 
 }

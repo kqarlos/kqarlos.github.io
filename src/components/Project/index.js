@@ -31,7 +31,7 @@ function Project() {
 
                 {/* <!-- start grid --> */}
 
-                <div className="container p-4 bg-white border content" id="contactContent">
+                <div className="container p-4 bg-white border" id="contactContent">
 
                     {/* <!-- first row / title --> */}
                     <div className="row mb-3">
