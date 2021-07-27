@@ -29,9 +29,7 @@ function Project() {
 
             <div id="project" data-project={state.currentProject.project}>
 
-                {/* <!-- start grid --> */}
-
-                <div className="container p-4 bg-white border" id="contactContent">
+                <main className="container p-4 bg-white border" id="contactContent">
 
                     {/* <!-- first row / title --> */}
                     <div className="row mb-3">
@@ -112,11 +110,7 @@ function Project() {
                         <img className="col-12 mt-3 py-1" src={state.currentProject.src} alt="Project Gif" />
                     </div>
 
-                    {/* <!-- end content --> */}
-
-                </div>
-
-                {/* <!-- end grid --> */}
+                </main>
 
             </div>
 
