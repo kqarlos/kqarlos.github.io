@@ -1,12 +1,23 @@
 #project{
     display: 'none';
     padding-bottom: 15px;
-    padding-top: calc(var(--navbarH) + 15px);
-    background-image: url("../../assets/images/beanstalk.png");
+    padding-top: var(--paddingTopSection);
+    background-image: var(--bgImgWall)
  }
 
 .codeSnippet {
     max-width: 100%;
+}
+
+.list-group-item.active {
+  background-color: var(--bgInfo); 
+}
+
+.list-group-item.active:hover {
+  background-color:var(--linkHoverDark);
+}
+.list-group-item:hover {
+  background-color: var(--linkHoverLight);
 }
 
 @media screen and (max-width: 768px) {

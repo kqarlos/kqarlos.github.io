@@ -5,6 +5,7 @@
     right: 30px;
     z-index: 99;
     font-size: 18px;
+    background-color: var(--bgInfo);
   }
   
 @media screen and (max-width: 576px) {

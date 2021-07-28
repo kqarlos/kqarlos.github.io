@@ -2,6 +2,13 @@
 
 :root {
   --navbarH: 104px;
+  --linkHoverDark: #118496;
+  --bgInfo: rgba(23,162,184,1);
+  --bgInfoLight: rgba(23,162,184,0.75);
+  --bgImgWall: url("./assets/images/beanstalk.png");
+  --paddingTopSection: calc(var(--navbarH) + 15px);
+  --linkHoverLight: rgba(23,162,184,0.2);
+
 }
 
 html {
