@@ -12,11 +12,56 @@
 .projectBtn {
     background-color: rgba(74,170,165,0.75);
     position: absolute;
-    bottom: 2rem;
-    border-radius: 0 70px 10px 0;
+    bottom: 0;
+    border-radius: 0 100px 0px 0;
     text-align: left;
+    width: 100%;
 }
   
 .projectH1 {
     font-size: 1.5rem;
 }
+
+.projectH2 {
+    font-size: 1rem;
+}
+
+#secSmall {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+        
+    .projectH1 {
+        font-size: 1.25rem;
+    }
+
+    .projectH2 {
+        font-size: 0.75rem;
+    }
+  
+  }
+
+@media screen and (max-width: 576px) {
+        
+    .projectH1 {
+        font-size: 1rem;
+    }
+
+    #secL{
+        display: none;
+    }
+    
+    #secSmall {
+        display: block;
+    }
+  
+  }
+
+  @media screen and (max-width: 350px) {
+        
+    #secXS { 
+        display: none;
+    }
+  
+  }

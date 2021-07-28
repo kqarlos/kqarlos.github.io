@@ -48,35 +48,35 @@ function Portfolio() {
 
                 {/* <!-- second row / content --> */}
                 <div className="row">
-                    <div className="col-12 col-md-6 col-lg-4 my-1">
+                    <div className="col-12 col-md-6 col-lg-4 my-1 px-2">
                         <ProjectCard imgLink={artisteImg} imgAlt="Drawing on a canvas" handleClick={handleClick}
                             name="artiste" title="Artiste Affame" description="Live the life of a starving artist in Artiste Affame!" />
                     </div>
-                    <div className="col-12 col-md-6 col-lg-4 my-1 px-1">
+                    <div className="col-12 col-md-6 col-lg-4 my-1 px-2">
                         <ProjectCard imgLink={electionYearImg} imgAlt="Campaign contributions chart" handleClick={handleClick}
                             name="electionYear" title="Election Year" description="Political app to keep track of your federal representatives" />
                     </div>
-                    <div className="col-12 col-lg-4 my-1">
+                    <div className="col-12 col-lg-4 my-1 px-2">
                         <ProjectCard imgLink={googleLibraryImg} imgAlt="Google books search result" handleClick={handleClick}
-                            name="googleLibrary" title="Google Book Library" description="Search through Google Books API and save favorite books" />
+                            name="googleLibrary" title="Google Book Library" description="Search and save books with Google Books API" />
                     </div>
                 </div>
 
                 {/* <!-- third row / content --> */}
                 <div className="row">
-                    <div className="col-12 col-md-6  col-lg-6  my-1">
+                    <div className="col-12 col-md-6  col-lg-6 my-1 px-2">
                         <ProjectCard imgLink={memoryGameImg} imgAlt="Memory Game" handleClick={handleClick}
                             name="memoryGame" title="Memory Game" description="Card matching game to test your memory skills" />
                     </div>
-                    <div className="col-12 col-md-6 col-lg-6  my-1">
+                    <div className="col-12 col-md-6 col-lg-6  my-1 px-2">
                         <ProjectCard imgLink={noteTakerImg} imgAlt="Note taker" handleClick={handleClick}
                             name="noteTaker" title="Note Taker" description="Real-time note taking application" />
                     </div>
-                    <div className="col-12 col-md-6  col-lg-6  my-1">
+                    <div className="col-12 col-md-6  col-lg-6  my-1 px-2">
                         <ProjectCard imgLink={dinnerPartyImg} imgAlt="Dinner Party" handleClick={handleClick}
                             name="dinnerParty" title="Dinner Party" description="Let our API digging recommend your next meal" />
                     </div>
-                    <div className="col-12 col-md-6 col-lg-6 my-1">
+                    <div className="col-12 col-md-6 col-lg-6 my-1 px-2">
                         <ProjectCard imgLink={shoppingBuddyImg} imgAlt="Shopping Buddy" handleClick={handleClick}
                             name="shoppingBuddy" title="Shopping Buddy" description="Create a shopping list. Add and delete items from your list on the go!" />
                     </div>
@@ -84,15 +84,15 @@ function Portfolio() {
 
                 {/* <!-- fourth row / content --> */}
                 <div className="row">
-                    <div className="col-12 col-md-6 col-lg-4 col-xl-4 my-2">
+                    <div className="col-12 col-md-6 col-lg-4 col-xl-4 my-2 px-2">
                         <ProjectCard imgLink={passGenImg} imgAlt="Password Generator" handleClick={handleClick}
                             name="passwordGenerator" title="Password Generator" description="Generate a password according to your specifications" />
                     </div>
-                    <div className="col-12 col-md-6 col-lg-4 col-xl-4 my-2 px-1">
+                    <div className="col-12 col-md-6 col-lg-4 col-xl-4 my-2 px-2">
                         <ProjectCard imgLink={dayPlannerImg} imgAlt="Day Planner" handleClick={handleClick}
                             name="dayPlanner" title="Day Planner" description="Plan your day in real time" />
                     </div>
-                    <div className="col-12 col-lg-4 col-xl-4 my-2">
+                    <div className="col-12 col-lg-4 col-xl-4 my-2 px-2">
                         <ProjectCard imgLink={weatherDashImg} imgAlt="Weather Dashboard" handleClick={handleClick}
                             name="weatherDashboard" title="Weather Dashboard" description="Check your local weather and keep track of your favorite cities" />
                     </div>
