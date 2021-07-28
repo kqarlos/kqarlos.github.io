@@ -58,7 +58,7 @@ function Portfolio() {
                     </div>
                     <div className="col-12 col-lg-4 my-1">
                         <ProjectCard imgLink={googleLibraryImg} imgAlt="Google books search result" handleClick={handleClick}
-                            name="googleLibrary" title="Google Book Library" description="Search through Google Books API and keep a list of your favorite books" />
+                            name="googleLibrary" title="Google Book Library" description="Search through Google Books API and save favorite books" />
                     </div>
                 </div>
 

@@ -10,7 +10,7 @@ function Footer() {
             {/* <!-- Footer Links --> */}
             <div className="container">
 
-                <div className="row text-md-center contentText text-white">
+                <div className="row text-md-center  justify-content-md-center contentText text-white">
                    
                     <div className="col-md-4">
                         <a className="btn headingText footerLink mx-2" style={{backgroundColor: 'rgb(25, 25, 139)'}} target="_blank"

@@ -5,14 +5,13 @@ function ProjectCard(props) {
 
     return (
 
-        <div className="card text-center">
+        <a className="card pCard" href="#project" onClick={() => props.handleClick(props.name)}>
             <img className="card-img-top" src={props.imgLink} alt={props.imgAlt} />
-            <div className="card-body projectCard">
-                <a href="#project" onClick={() => props.handleClick(props.name)}
-                    className="btn projectBtn text-white bg-info contentText w-100 rightCorners">{props.title}</a>
-                <p className="card-text m-2">{props.description}</p>
-            </div>
-        </div>
+            <section className="btn projectBtn text-white">
+                <header className="projectH1">{props.title}</header>
+                <p className="card-text contentText">{props.description}</p>
+            </section>
+        </a>
     )
 }
 
