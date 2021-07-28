@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.3aeae804.chunk.css",
-    "main.js": "/static/js/main.990b1243.chunk.js",
-    "main.js.map": "/static/js/main.990b1243.chunk.js.map",
+    "main.css": "/static/css/main.d3db74c9.chunk.css",
+    "main.js": "/static/js/main.6f07d3d8.chunk.js",
+    "main.js.map": "/static/js/main.6f07d3d8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5453153e.js",
     "runtime-main.js.map": "/static/js/runtime-main.5453153e.js.map",
     "static/js/2.88360fa1.chunk.js": "/static/js/2.88360fa1.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.669faaab.chunk.js": "/static/js/3.669faaab.chunk.js",
     "static/js/3.669faaab.chunk.js.map": "/static/js/3.669faaab.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.3aeae804.chunk.css.map": "/static/css/main.3aeae804.chunk.css.map",
+    "static/css/main.d3db74c9.chunk.css.map": "/static/css/main.d3db74c9.chunk.css.map",
     "static/js/2.88360fa1.chunk.js.LICENSE.txt": "/static/js/2.88360fa1.chunk.js.LICENSE.txt",
     "static/media/Axios.25c6a0f8.jpg": "/static/media/Axios.25c6a0f8.jpg",
     "static/media/Charts.ce032c54.jpg": "/static/media/Charts.ce032c54.jpg",
@@ -50,7 +50,7 @@
   "entrypoints": [
     "static/js/runtime-main.5453153e.js",
     "static/js/2.88360fa1.chunk.js",
-    "static/css/main.3aeae804.chunk.css",
-    "static/js/main.990b1243.chunk.js"
+    "static/css/main.d3db74c9.chunk.css",
+    "static/js/main.6f07d3d8.chunk.js"
   ]
 }
