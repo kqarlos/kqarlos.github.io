@@ -8,7 +8,7 @@ function NavBar() {
     return (
 
         <nav className="py-0 navbar sticky-top navbar-expand-lg navbar-light bg-info font-raleway">
-            <a className="navbar-brand bg-info text-white font-weight-bold p-3 headingText smoothLink" href="#about">Carlos Toledo</a>
+            <a className="navbar-brand text-white font-weight-bold p-3 headingText smoothLink" href="#about">Carlos Toledo</a>
             <button className="navbar-toggler mr-4" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon headingText"></span>

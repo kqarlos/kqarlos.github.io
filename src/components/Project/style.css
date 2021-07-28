@@ -11,6 +11,7 @@
 
 .list-group-item.active {
   background-color: var(--bgInfo); 
+  border-color: var(--linkHoverDark);
 }
 
 .list-group-item.active:hover {

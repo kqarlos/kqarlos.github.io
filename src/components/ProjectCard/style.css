@@ -10,9 +10,11 @@
 }
 
 .projectBtn {
-    background-color: var(--bgInfoLight);
+    /* background-color: var(--bgInfoLight); */
+    background: linear-gradient(0deg, var(--bgInfo) 0%, var(--bgInfoLight) 100%);
     position: absolute;
     bottom: 0;
+    border: 0px;
     border-radius: 0 100px 0px 0;
     text-align: left;
     width: 100%;
