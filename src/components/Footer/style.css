@@ -7,4 +7,10 @@
 .footerLink{
     color: white;
     border-radius: 30%;
+    font-size: 2rem;
+}
+
+.footerText {
+    line-height: 32px;
+    font-size: 1rem;
 }

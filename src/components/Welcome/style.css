@@ -23,7 +23,19 @@
 }
 
 .welcomeH2 {
-    font-size: 2rem;
+    font-size: 3rem;
+
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .welcomeH1 {
+        font-size: 5rem;
+    }
+    .welcomeH2 {
+        font-size: 2rem;
+    }
+
 }
 
 @media screen and (max-width: 768px) {

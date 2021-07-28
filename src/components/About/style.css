@@ -9,6 +9,10 @@
     margin: 5px 15px 5px 0px;
   } 
 
+  .aboutText {
+    line-height: 32px;
+  }
+
   @media screen and (max-width: 576px) {
 
     #headshot2 {

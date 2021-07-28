@@ -37,12 +37,12 @@ function Portfolio() {
 
         <div id="portfolio">
 
-            <main className=" p-4 bg-white border portfolioContent">
+            <main className=" p-4 bg-white border portfolioContent font-raleway">
 
                 {/* <!-- first row / title --> */}
                 <div className="row mb-3">
                     <div className="col-12">
-                        <p className="font-weight-bold text-info border-bottom pb-3 headingText">Portfolio</p>
+                        <p className="font-weight-bold text-info border-bottom headingText">Portfolio</p>
                     </div>
                 </div>
 

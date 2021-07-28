@@ -29,12 +29,12 @@ function Project() {
 
             <div id="project" data-project={state.currentProject.project}>
 
-                <main className="container p-4 bg-white border" id="contactContent">
+                <main className="container p-4 bg-white border font-raleway">
 
                     {/* <!-- first row / title --> */}
                     <div className="row mb-3">
                         <div className="col-12">
-                            <p className="font-weight-bold text-info border-bottom pb-3 headingText">{state.currentProject.name}</p>
+                            <p className="font-weight-bold text-info border-bottom headingText">{state.currentProject.name}</p>
                         </div>
                     </div>
 

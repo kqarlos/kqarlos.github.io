@@ -2,7 +2,7 @@
     height: 100%;
     width: 100%;
     opacity: 0.7;
-    border: 3px solid #4aaaa5;
+    border: 3px solid #17a2b8;
 }
 
 .pCard:hover {
@@ -10,7 +10,7 @@
 }
 
 .projectBtn {
-    background-color: rgba(74,170,165,0.75);
+    background-color: rgba(23,162,184,0.75);
     position: absolute;
     bottom: 0;
     border-radius: 0 100px 0px 0;

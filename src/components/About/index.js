@@ -8,24 +8,24 @@ function About() {
 
         <div id="about">
 
-            <main className="container p-4 bg-white border">
+            <main className="container p-4 bg-white border font-raleway">
 
                 <div className="row mb-1">
                     <div className="col-md-12 pb-1">
-                        <p className="font-weight-bold text-info border-bottom pb-3 headingText">About Me</p>
+                        <p className="font-weight-bold text-info border-bottom headingText">About Me</p>
                     </div>
                 </div>
 
                 <div className="row">
                     <article className="col-12 text-secondary">
                         <img className="rounded float-left pb-1" id="headshot2" src={headshot} alt="Headshot" />
-                        <p className="contentText">
+                        <p className="aboutText">
                             Full-Stack Web Developer with a B.S. in Software Engineering and a minor in Mathematics from San
                             Jose State University. I recently graduated from the University of California, Berkeley Extension with
                             a certificate in Full-Stack Web Development. This added new web development skills to my
                             Object-Oriented Programming experience such as Mongo, Express, React, and Node.
                         </p>
-                        <p className="contentText">
+                        <p className="aboutText">
                             My experience in hospitality has given me the ability to easily communicate my thought process with
                             peers and to understand the significance of teamwork and collaboration. I am passionate about
                             problem-solving, learning new technologies and developing user-friendly applications, and learning
@@ -33,9 +33,6 @@ function About() {
                             full-stack applications. Looking forward to using my technical abilities and software engineering skills
                             to create user-friendly experiences.
                         </p>
-
-                        <a href="#portfolio" className="btn text-white bg-info contentText float-right" id="myWork">My
-                            Work <i className="fas fa-arrow-circle-down"></i></a>
 
                     </article>
                 </div>

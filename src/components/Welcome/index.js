@@ -15,7 +15,7 @@ function About() {
                         <img className="rounded" id="headshot" src={headshot} alt="Headshot" />
                     </div>
                     <div className="col-sm-8 col-md-8 col-lg-9">
-                        <div className="row">
+                        <div className="row font-raleway">
                             <div className="col-12">
                                 <header className="welcomeH1">I'm Carlos</header>
                             </div>
@@ -23,7 +23,7 @@ function About() {
                                 <header className="welcomeH2">A Full Stack Web Developer</header>
                             </div>
                             <div className="col-12 pt-1">
-                                <a href="#about" className="btn text-white bg-info contentText float-right" id="myWork">About me <i className="fas fa-arrow-circle-down"></i></a>
+                                <a href="#about" className="btn text-white bg-info contentText float-right" id="myWork">About me    <i className="fas fa-arrow-circle-down"></i></a>
                             </div>
                         </div>
                     </div>

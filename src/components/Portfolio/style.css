@@ -1,5 +1,4 @@
 #portfolio{
-    padding-bottom: 15px;
     padding-top: calc(var(--navbarH) + 15px);
     background-image: url("../../assets/images/beanstalk.png");
   }
