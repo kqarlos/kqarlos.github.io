@@ -100,10 +100,10 @@ function Project() {
                     </div>
                     <div className="row">
                         <div className="col-12 h4 my-2">Links</div>
-                        <a className="col-12 link" style={{ textDecoration: 'none' }} href={state.currentProject.repo} target="_blank"><i
-                            className="fab fa-github-alt"></i> {state.currentProject.repo}</a>
-                        <a className="col-12 link" style={{ textDecoration: 'none' }} href={state.currentProject.deployed} target="_blank"><i
-                            className="far fa-play-circle"></i> {state.currentProject.deployed}</a>
+                        <a className="col-12 link" style={{ textDecoration: 'none' }} href={state.currentProject.repo} target="_blank">
+                            <i className="fab fa-github-alt"></i> {state.currentProject.repo}</a>
+                        <a className="col-12 link" style={{ textDecoration: 'none' }} href={state.currentProject.deployed} target="_blank">
+                            <i className="far fa-play-circle"></i> {state.currentProject.deployed}</a>
 
                     </div>
                     <div className="row">

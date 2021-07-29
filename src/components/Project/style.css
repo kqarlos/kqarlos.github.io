@@ -21,6 +21,15 @@
   background-color: var(--linkHoverLight);
 }
 
+a.link {
+  color: var(--bgInfo);
+  font-size: 1.2rem;
+}
+
+a.link:hover {
+  color: var(--linkHoverDark);
+}
+
 @media screen and (max-width: 768px) {
 
   #project {

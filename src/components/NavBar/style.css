@@ -6,6 +6,15 @@
     font-size: 2rem;
 }
 
+.navLink {
+    color: white !important;
+}
+
+.navLink:hover {
+    color: #09444d !important;
+
+}
+
 .navbar-brand {
     max-width: 100%;
 }
