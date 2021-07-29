@@ -8,6 +8,11 @@
     color: white;
     border-radius: 30%;
     font-size: 2rem;
+    width: 67px;
+}
+
+.footerLink:hover {
+    color: var(--linkHoverDarker);
 }
 
 .footerText {

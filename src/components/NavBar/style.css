@@ -11,7 +11,7 @@
 }
 
 .navLink:hover {
-    color: #09444d !important;
+    color: var(--linkHoverDarker) !important;
 
 }
 

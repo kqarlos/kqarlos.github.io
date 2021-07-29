@@ -4,7 +4,7 @@ import './style.css';
 function TopButton() {
 
     function handleScroll() {
-        if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 1000) {
+        if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 1300) {
             document.getElementById("topBtn").style.display = 'block'
         } else {
             document.getElementById("topBtn").style.display = 'none'
