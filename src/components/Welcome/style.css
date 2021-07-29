@@ -17,14 +17,30 @@
 #headshot {
     max-width: 100%;
 } 
-  
-.welcomeH1 {
-      font-size: 6rem;
+
+@keyframes rToL {
+    0%   {left:900px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+
+#welcomeH1 {
+    position: relative;
+    font-size: 6rem;
+    animation-name: rToL;
+    animation-duration: 3s;
 }
 
 .welcomeH2 {
+    position: relative;
     font-size: 3rem;
+    animation-name: rToL;
+    animation-duration: 4s;
+}
 
+#aboutBtn {
+    position: relative;
+    animation-name: rToL;
+    animation-duration: 5s;
 }
 
 @media screen and (max-width: 1000px) {
