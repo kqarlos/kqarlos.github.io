@@ -32,6 +32,30 @@
     display: none;
 }
 
+
+@keyframes  pRtoL{
+    0%   {left:1000px; top:0px;}
+    100% {left:0px; top:0px;}
+  }
+
+  @keyframes pLtoR {
+    0%   {right:1000px; top:0px;}
+    100% {right:0px; top:0px;}
+  }
+  
+  .projectLtoR {
+    position: relative;
+    animation-name: pLtoR;
+    animation-duration: 4s;
+  }
+  
+  .projectRtoL {
+    position: relative;
+    animation-name: pRtoL;
+    animation-duration: 4s;
+  }
+  
+
 @media screen and (max-width: 1200px) {
         
     .projectH1 {

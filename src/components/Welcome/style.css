@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 1000px) {
     
-    .welcomeH1 {
+    #welcomeH1 {
         font-size: 5rem;
     }
     .welcomeH2 {
@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 768px) {
     
-    .welcomeH1 {
+    #welcomeH1 {
         font-size: 4rem;
     }
     .welcomeH2 {
@@ -67,7 +67,7 @@
 
 @media screen and (max-width: 576px) {
     
-    .welcomeH1 {
+    #welcomeH1 {
         font-size: 3rem;
     }
     .welcomeH2 {
