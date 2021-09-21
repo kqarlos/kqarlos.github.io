@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c841ca8c.chunk.css",
-    "main.js": "/static/js/main.315e73d8.chunk.js",
-    "main.js.map": "/static/js/main.315e73d8.chunk.js.map",
+    "main.js": "/static/js/main.994d28b4.chunk.js",
+    "main.js.map": "/static/js/main.994d28b4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.35a4b10e.js",
     "runtime-main.js.map": "/static/js/runtime-main.35a4b10e.js.map",
     "static/js/2.2af08831.chunk.js": "/static/js/2.2af08831.chunk.js",
@@ -13,6 +13,8 @@
     "static/css/main.c841ca8c.chunk.css.map": "/static/css/main.c841ca8c.chunk.css.map",
     "static/js/2.2af08831.chunk.js.LICENSE.txt": "/static/js/2.2af08831.chunk.js.LICENSE.txt",
     "static/media/Axios.25c6a0f8.jpg": "/static/media/Axios.25c6a0f8.jpg",
+    "static/media/CarlosToledo_CoverLetter.5df12fce.pdf": "/static/media/CarlosToledo_CoverLetter.5df12fce.pdf",
+    "static/media/CarlosToledo_Resume.1aa2b6b3.pdf": "/static/media/CarlosToledo_Resume.1aa2b6b3.pdf",
     "static/media/Charts.ce032c54.jpg": "/static/media/Charts.ce032c54.jpg",
     "static/media/Express.26ed8584.jpg": "/static/media/Express.26ed8584.jpg",
     "static/media/Handlebars.75a8b35e.jpg": "/static/media/Handlebars.75a8b35e.jpg",
@@ -26,7 +28,6 @@
     "static/media/Sequelize.f62a9490.jpg": "/static/media/Sequelize.f62a9490.jpg",
     "static/media/artiste-live.83500cb8.gif": "/static/media/artiste-live.83500cb8.gif",
     "static/media/artiste.e884a27d.png": "/static/media/artiste.e884a27d.png",
-    "static/media/cover-letter.5df12fce.pdf": "/static/media/cover-letter.5df12fce.pdf",
     "static/media/day-planner.a05397a0.png": "/static/media/day-planner.a05397a0.png",
     "static/media/dinner-party-live.166f1b3e.gif": "/static/media/dinner-party-live.166f1b3e.gif",
     "static/media/dinner-party.8282fb0b.png": "/static/media/dinner-party.8282fb0b.png",
@@ -40,7 +41,6 @@
     "static/media/note-taker-live.dabf179d.gif": "/static/media/note-taker-live.dabf179d.gif",
     "static/media/note-taker.2273c5f7.png": "/static/media/note-taker.2273c5f7.png",
     "static/media/password-generator.cf494acc.png": "/static/media/password-generator.cf494acc.png",
-    "static/media/resume.1aa2b6b3.pdf": "/static/media/resume.1aa2b6b3.pdf",
     "static/media/shopping-buddy.b9a999b5.png": "/static/media/shopping-buddy.b9a999b5.png",
     "static/media/shopping-buddy.dd1c5fb1.gif": "/static/media/shopping-buddy.dd1c5fb1.gif",
     "static/media/weather-dashboard.803ede71.png": "/static/media/weather-dashboard.803ede71.png",
@@ -51,6 +51,6 @@
     "static/js/runtime-main.35a4b10e.js",
     "static/js/2.2af08831.chunk.js",
     "static/css/main.c841ca8c.chunk.css",
-    "static/js/main.315e73d8.chunk.js"
+    "static/js/main.994d28b4.chunk.js"
   ]
 }
