@@ -35,9 +35,9 @@ function Resume() {
                                 <p> Vallejo, CA 94590</p>
                                 <p>Email: kqarlos415@gmail.com</p>
                                 <p>Phone: 415-590-9772</p>
-                                <p>LinkedIn: https://www.linkedin.com/in/carlos-toledo415/</p>
-                                <p>Github: https://github.com/kqarlos</p>
-                                <p>Portfolio: https://kqarlos.github.io</p>
+                                <p><a className="link" style={{ textDecoration: 'none' }} href="https://www.linkedin.com/in/carlos-toledo415/" target="_blank">LinkedIn: https://www.linkedin.com/in/carlos-toledo415/</a></p>
+                                <p><a className="link" style={{ textDecoration: 'none' }} href="https://github.com/kqarlos" target="_blank">Github: https://github.com/kqarlos</a></p>
+                                <p><a className="link" style={{ textDecoration: 'none' }} href="https://kqarlos.github.io" target="_blank">Portfolio: https://kqarlos.github.io</a></p>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ function Resume() {
 
                         <div className="row">
                             <div className="col-12">
-                                <p>Tumi Bakery | https://tumibakery.com</p>
+                                <p>Tumi Bakery | <a className="link" style={{ textDecoration: 'none' }} href="https://tumibakery.com" target="_blank">https://tumibakery.com</a></p>
                             </div>
                             <div className="col-12 ml-5">
                                 <p className="textt">Application developed for Tumi Peruvian Bakery in Vallejo, CA.</p>
@@ -107,7 +107,10 @@ function Resume() {
                         </div>
                         <div className="row">
                             <div className="col-12">
-                                <p>Election Year | https://github.com/kqarlos/election-year | https://electionyear2020.herokuapp.com/</p>
+                                <p>Election Year |
+                                    <a className="link" style={{ textDecoration: 'none' }} href="https://github.com/kqarlos/election-year" target="_blank"> https://github.com/kqarlos/election-year</a> |
+                                    <a className="link" style={{ textDecoration: 'none' }} href="https://electionyear2020.herokuapp.com/" target="_blank"> https://electionyear2020.herokuapp.com/</a>
+                                </p>
                             </div>
                             <div className="col-12 ml-5">
                                 <p>Full-stack application that allows users to create an account and search for their
@@ -118,7 +121,10 @@ function Resume() {
                         </div>
                         <div className="row">
                             <div className="col-12">
-                                <p>Artiste Affame | https://github.com/kqarlos/artiste-affame | https://artiste-affame.herokuapp.com/</p>
+                                <p>Artiste Affame |
+                                    <a className="link" style={{ textDecoration: 'none' }} href="https://github.com/kqarlos/artiste-affame" target="_blank"> https://github.com/kqarlos/artiste-affame</a> |
+                                    <a className="link" style={{ textDecoration: 'none' }} href="https://artiste-affame.herokuapp.com/" target="_blank"> https://artiste-affame.herokuapp.com/</a>
+                                </p>
                             </div>
                             <div className="col-12 ml-5">
                                 <p>Application allows users to immerse themselves in the life of a renaissance artist. Users can
@@ -148,7 +154,7 @@ function Resume() {
                             <div className="col-6">
                                 <p>Virtual Teaching Assistant and Senior Tutor @ Trilogy Education</p>
                             </div>
-                            <div className="col-4">
+                            <div className="col-6">
                                 <p className="float-right">September 2020 - Present</p>
                             </div>
                             <div className="col-12 ml-5">
@@ -163,7 +169,7 @@ function Resume() {
                             <div className="col-6">
                                 <p>Server @ Bon Appetit – Oracle Park San Francisco, CA</p>
                             </div>
-                            <div className="col-4">
+                            <div className="col-6">
                                 <p className="float-right">2016 - 2020</p>
                             </div>
                             <div className="col-12 ml-5">
@@ -190,7 +196,7 @@ function Resume() {
                             <div className="col-6">
                                 <p>UC Berkeley Extension - San Francisco, CA</p>
                             </div>
-                            <div className="col-4">
+                            <div className="col-6">
                                 <p className="float-right">February 2020</p>
                             </div>
                             <div className="col-12 ml-5">
@@ -202,7 +208,7 @@ function Resume() {
                             <div className="col-6">
                                 <p>San Jose State University - San Jose, CA</p>
                             </div>
-                            <div className="col-4">
+                            <div className="col-6">
                                 <p className="float-right">December 2016</p>
                             </div>
                             <div className="col-12 ml-5">
