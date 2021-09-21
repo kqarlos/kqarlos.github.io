@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css'
-import headshot from '../../assets/images/headshot.jpg'
 import resume from '../../assets/pdf/CarlosToledo_Resume.pdf';
 
 
@@ -10,7 +9,7 @@ function Resume() {
 
         <div id="resume" className="section">
 
-            <main className="sectionContent  p-4 bg-white border font-raleway">
+            <main className="sectionContent p-4 bg-white border font-raleway">
 
                 <div className="row mb-1">
                     <div className="col-md-12 pb-1">
@@ -18,44 +17,91 @@ function Resume() {
                     </div>
                 </div>
 
-                <div className="row my-3">
+                <div className="row mt-3">
+                    <div className="col-lg-6">
+                        <div className="row mb-3">
+                            <div className="col-sm-2 col-lg-4 resumeHeader">
+                                <div className="row">
+                                    <div className="col-sm-12 col-6">
+                                        <p>About Me</p>
+                                    </div>
+                                    <div className="col-sm-12 col-6">
+                                        <i className="headingText far fa-address-card"></i>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <div className="col-2 border-right">About Me</div>
-                    <div className="col-4">
-                        <p> Vallejo, CA 94590</p>
-                        <p>Email: kqarlos415@gmail.com</p>
-                        <p>Phone: 415-590-9772</p>
-                        <p>LinkedIn: https://www.linkedin.com/in/carlos-toledo415/</p>
-                        <p>Github: https://github.com/kqarlos</p>
-                        <p>Portfolio: https://kqarlos.github.io</p>
+                            <div className="col-sm-10 col-lg-8">
+                                <p> Vallejo, CA 94590</p>
+                                <p>Email: kqarlos415@gmail.com</p>
+                                <p>Phone: 415-590-9772</p>
+                                <p>LinkedIn: https://www.linkedin.com/in/carlos-toledo415/</p>
+                                <p>Github: https://github.com/kqarlos</p>
+                                <p>Portfolio: https://kqarlos.github.io</p>
+                            </div>
+                        </div>
                     </div>
-                    <div className="col-2 border-right">Summary</div>
-                    <div className="col-4">
-                        <p> Full-Stack Web Developer with excellent communication and teamwork skills developed from working in the
-                            hospitality industry. Successfully collaborated in teams of 3-5 to develop full-stack applications. Passionate
-                            about problem-solving, learning technologies, and developing user-friendly applications. Looking forward to
-                            using my technical abilities and software engineering skills to create user-friendly experiences.</p>
+
+                    <div className="col-lg-6">
+                        <div className="row mb-3">
+                            <div className="col-sm-2 col-lg-4 resumeHeader">
+                                <div className="row">
+                                    <div className="col-sm-12 col-6">
+                                        <p>Summary</p>
+                                    </div>
+                                    <div className="col-sm-12 col-6">
+                                        <i className="headingText fas fa-user-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-sm-10 col-lg-8">
+                                <p> Full-Stack Web Developer with excellent communication and teamwork skills developed from working in the
+                                    hospitality industry. Successfully collaborated in teams of 3-5 to develop full-stack applications. Passionate
+                                    about problem-solving, learning technologies, and developing user-friendly applications. Looking forward to
+                                    using my technical abilities and software engineering skills to create user-friendly experiences.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
                 <div className="row my-3">
-                    <div className="col-2  border-right">Technical Skills</div>
-                    <div className="col-10">
+                    <div className="col-sm-2  resumeHeader">
+                        <div className="row">
+                            <div className="col-sm-12 col-6">
+                                <p>Technical Skills</p>
+                            </div>
+                            <div className="col-sm-12 col-6">
+                                <i className="headingText fas fa-code"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-10">
                         <p> HTML | CSS | JavaScript | MySQL | Sequelize | OOP | Relational Databases | NoSQL
                         </p>
                         <p>React | ES6 | MongoDB | Mongoose | Express | Node | Handlebars | JSON</p>
                         <p>Tools: Visual Studio Code | Github | Heroku | MongoDB Compass | Git Bash | Bootstrap</p>
                     </div>
                 </div>
+
                 <div className="row my-3">
-                    <div className="col-2  border-right">Projects</div>
-                    <div className="col-10">
+                    <div className="col-sm-2 resumeHeader">
+                        <div className="row">
+                            <div className="col-sm-12 col-6">
+                                <p>Projects</p>
+                            </div>
+                            <div className="col-sm-12 col-6">
+                                <i className="headingText fas fa-briefcase"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-10">
 
                         <div className="row">
                             <div className="col-12">
                                 <p>Tumi Bakery | https://tumibakery.com</p>
                             </div>
                             <div className="col-12 ml-5">
-                                <p>Application developed for Tumi Peruvian Bakery in Vallejo, CA.</p>
+                                <p className="textt">Application developed for Tumi Peruvian Bakery in Vallejo, CA.</p>
                                 <p>Built with: MERN Stack, CSS, Bootstrap, Mongoose, SendGrid, Cloudflare</p>
                             </div>
                         </div>
@@ -82,13 +128,21 @@ function Resume() {
                             </div>
                         </div>
 
-
-
                     </div>
                 </div>
+
                 <div className="row my-3">
-                    <div className="col-2  border-right">Experience</div>
-                    <div className="col-10">
+                    <div className="col-sm-2 resumeHeader">
+                        <div className="row">
+                            <div className="col-sm-12 col-6">
+                                <p>Experience</p>
+                            </div>
+                            <div className="col-sm-12 col-6">
+                                <i className="headingText fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-10">
 
                         <div className="row">
                             <div className="col-6">
@@ -119,9 +173,19 @@ function Resume() {
 
                     </div>
                 </div>
+
                 <div className="row my-3">
-                    <div className="col-2  border-right">Education</div>
-                    <div className="col-10">
+                    <div className="col-sm-2 resumeHeader">
+                        <div className="row">
+                            <div className="col-sm-12 col-6">
+                                <p>Education</p>
+                            </div>
+                            <div className="col-sm-12 col-6">
+                                <i className="headingText fas fa-graduation-cap"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-10">
                         <div className="row">
                             <div className="col-6">
                                 <p>UC Berkeley Extension - San Francisco, CA</p>
@@ -148,11 +212,10 @@ function Resume() {
                     </div>
 
                     <div className="col-12 pt-1">
-                        <a href={resume} target="_blank" className="btn text-white bg-info float-right" id="aboutBtn">Resume <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href={resume} target="_blank" className="btn text-white bg-info float-right" id="aboutBtn">Resume PDF <i className="fas fa-arrow-circle-right"></i></a>
                     </div>
 
                 </div>
-
 
             </main>
         </div>
