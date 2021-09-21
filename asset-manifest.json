@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea9efbf9.chunk.css",
-    "main.js": "/static/js/main.d6726e2e.chunk.js",
-    "main.js.map": "/static/js/main.d6726e2e.chunk.js.map",
+    "main.css": "/static/css/main.fb5396c6.chunk.css",
+    "main.js": "/static/js/main.832a6331.chunk.js",
+    "main.js.map": "/static/js/main.832a6331.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.801068b1.js",
     "runtime-main.js.map": "/static/js/runtime-main.801068b1.js.map",
     "static/js/2.2af08831.chunk.js": "/static/js/2.2af08831.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.c60f1004.chunk.js": "/static/js/3.c60f1004.chunk.js",
     "static/js/3.c60f1004.chunk.js.map": "/static/js/3.c60f1004.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ea9efbf9.chunk.css.map": "/static/css/main.ea9efbf9.chunk.css.map",
+    "static/css/main.fb5396c6.chunk.css.map": "/static/css/main.fb5396c6.chunk.css.map",
     "static/js/2.2af08831.chunk.js.LICENSE.txt": "/static/js/2.2af08831.chunk.js.LICENSE.txt",
     "static/media/Axios.25c6a0f8.jpg": "/static/media/Axios.25c6a0f8.jpg",
     "static/media/CarlosToledo_CoverLetter.5df12fce.pdf": "/static/media/CarlosToledo_CoverLetter.5df12fce.pdf",
@@ -50,7 +50,7 @@
   "entrypoints": [
     "static/js/runtime-main.801068b1.js",
     "static/js/2.2af08831.chunk.js",
-    "static/css/main.ea9efbf9.chunk.css",
-    "static/js/main.d6726e2e.chunk.js"
+    "static/css/main.fb5396c6.chunk.css",
+    "static/js/main.832a6331.chunk.js"
   ]
 }
