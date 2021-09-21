@@ -35,7 +35,7 @@ function Portfolio() {
 
     return (
 
-        <div id="portfolio">
+        <div id="portfolio" className="section">
 
             <main className=" p-4 bg-white border sectionContent font-raleway">
 

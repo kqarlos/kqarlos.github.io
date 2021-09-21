@@ -31,6 +31,12 @@ html {
   min-height: calc(110vh - 265px);
 }
 
+.section {
+  padding-top: var(--paddingTopSection);
+  background-image: var(--bgImgWall)
+
+}
+
 .sectionContent {
   width: 87%;
   margin: 0 auto;
@@ -43,6 +49,11 @@ html {
   }
   .headingText {
       font-size: 2rem;
+  }
+
+  .section {
+    padding: calc(var(--navbarH) + 15px) 15px 5px;
+
   }
 
   .sectionContent {

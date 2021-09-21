@@ -1,14 +1,10 @@
 #resume {
-    padding-top: var(--paddingTopSection);
-    background-image: var(--bgImgWall)
+    padding-bottom: 45px;
   }
-
 
 
 @media screen and (max-width: 768px) {
 
-  #resume {
-    padding: calc(var(--navbarH) + 15px) 15px 5px;
-  }
+
 
 }

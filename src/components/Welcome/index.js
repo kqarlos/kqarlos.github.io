@@ -23,7 +23,7 @@ function Welcome() {
                                 <header className="welcomeH2">A Full Stack Web Developer</header>
                             </div>
                             <div className="col-12 pt-1">
-                                <a href="#about" className="btn text-white bg-info contentText float-right" id="aboutBtn">About me    <i className="fas fa-arrow-circle-down"></i></a>
+                                <a href="#about" className="btn text-white bg-info float-right" id="aboutBtn">About me    <i className="fas fa-arrow-circle-down"></i></a>
                             </div>
                         </div>
                     </div>

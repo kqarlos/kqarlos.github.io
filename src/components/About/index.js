@@ -6,7 +6,7 @@ function About() {
 
     return (
 
-        <div id="about">
+        <div id="about" className="section">
 
             <main className="sectionContent p-4 bg-white border font-raleway">
 

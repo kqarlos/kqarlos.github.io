@@ -27,7 +27,7 @@ function Project() {
     return (
         <>
 
-            <div id="project" data-project={state.currentProject.project}>
+            <div id="project" className="section" data-project={state.currentProject.project}>
 
                 <main className="sectionContent p-4 bg-white border font-raleway">
 

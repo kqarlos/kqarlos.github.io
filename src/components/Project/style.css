@@ -1,8 +1,5 @@
 #project{
     display: 'none';
-    padding-bottom: 15px;
-    padding-top: var(--paddingTopSection);
-    background-image: var(--bgImgWall)
  }
 
 .codeSnippet {
@@ -31,9 +28,5 @@ a.link:hover {
 }
 
 @media screen and (max-width: 768px) {
-
-  #project {
-    padding: calc(var(--navbarH) + 15px) 15px 5px;
-  }
 
 }
