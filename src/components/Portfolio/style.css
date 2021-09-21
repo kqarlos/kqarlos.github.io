@@ -3,10 +3,6 @@
     background-image: var(--bgImgWall);
   }
 
-.portfolioContent {
-  width: 87%;
-  margin: 0 auto;
-}
 
 @media screen and (max-width: 768px) {
 
@@ -14,8 +10,6 @@
     padding: calc(var(--navbarH) + 15px) 15px 5px;
   }
 
-  .portfolioContent {
-    width: 100%;
-  }
+
   
 }

@@ -8,7 +8,7 @@ function About() {
 
         <div id="about">
 
-            <main className="container p-4 bg-white border font-raleway">
+            <main className="sectionContent p-4 bg-white border font-raleway">
 
                 <div className="row mb-1">
                     <div className="col-md-12 pb-1">
@@ -19,7 +19,7 @@ function About() {
                 <div className="row">
                     <article className="col-12 text-secondary">
                         <img className="rounded float-left pb-1" id="headshot2" src={headshot} alt="Headshot" />
-                        <p className="aboutText">
+                        <p className="aboutText pt-3">
                             Full-Stack Web Developer with a B.S. in Software Engineering and a minor in Mathematics from San
                             Jose State University. I recently graduated from the University of California, Berkeley Extension with
                             a certificate in Full-Stack Web Development. This added new web development skills to my

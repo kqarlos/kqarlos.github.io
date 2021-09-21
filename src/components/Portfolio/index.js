@@ -37,7 +37,7 @@ function Portfolio() {
 
         <div id="portfolio">
 
-            <main className=" p-4 bg-white border portfolioContent font-raleway">
+            <main className=" p-4 bg-white border sectionContent font-raleway">
 
                 {/* <!-- first row / title --> */}
                 <div className="row mb-3">

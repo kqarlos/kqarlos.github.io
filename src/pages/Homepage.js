@@ -7,6 +7,7 @@ import Footer from '../components/Footer'
 import TopButton from '../components/TopButton';
 import Project from '../components/Project';
 import { useStoreContext } from "../utils/GlobalState"
+import Resume from '../components/Resume';
 
 function Homepage() {
 
@@ -25,6 +26,7 @@ function Homepage() {
             <About />
             <Portfolio />
             <Project />
+            <Resume />
             <Footer />
         </>
     )

@@ -19,7 +19,7 @@ function NavBar() {
                         <a className="nav-link navbarText navLink smoothLink" href="#portfolio">Portfolio</a>
                     </li>
                     <li className="nav-item pl-2">
-                        <a className="nav-link navbarText navLink" target="_blank" href={resume}>Resume</a>
+                        <a className="nav-link navbarText navLink smoothLink" href="#resume">Resume</a>
                     </li>
                     <li className="nav-item pl-2">
                         <a className="nav-link navbarText navLink" target="_blank" href={coverLetter}>Cover

@@ -29,7 +29,7 @@ function Project() {
 
             <div id="project" data-project={state.currentProject.project}>
 
-                <main className="container p-4 bg-white border font-raleway">
+                <main className="sectionContent p-4 bg-white border font-raleway">
 
                     {/* <!-- first row / title --> */}
                     <div className="row mb-3">
