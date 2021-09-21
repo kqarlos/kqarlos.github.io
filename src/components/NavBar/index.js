@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
-import resume from '../../assets/pdf/resume.pdf';
-import coverLetter from '../../assets/pdf/cover-letter.pdf';
+import resume from '../../assets/pdf/CarlosToledo_Resume.pdf';
+import coverLetter from '../../assets/pdf/CarlosToledo_CoverLetter.pdf';
 
 function NavBar() {
 
