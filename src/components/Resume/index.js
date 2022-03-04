@@ -56,7 +56,7 @@ function Resume() {
                             </div>
                             <div className="col-sm-10 col-lg-8">
                                 <p> Full-Stack Web Developer with excellent communication and teamwork skills developed from working in the
-                                    hospitality industry. Successfully collaborated in teams of 3-5 to develop full-stack applications. Passionate
+                                    hospitality and education industry. Successfully collaborated in teams of 3-5 to develop full-stack applications. Passionate
                                     about problem-solving, learning technologies, and developing user-friendly applications. Looking forward to
                                     using my technical abilities and software engineering skills to create user-friendly experiences.</p>
                             </div>
