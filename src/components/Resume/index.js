@@ -152,7 +152,7 @@ function Resume() {
 
                         <div className="row">
                             <div className="col-6">
-                                <p>Virtual Teaching Assistant and Senior Tutor @ Trilogy Education</p>
+                                <p>Instructional Specialist and Senior Tutor @ Trilogy Education</p>
                             </div>
                             <div className="col-6">
                                 <p className="float-right">September 2020 - Present</p>
