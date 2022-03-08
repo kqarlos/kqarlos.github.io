@@ -19,14 +19,13 @@
 
 ## Description
 
-This website contains my professional informationshows some of the projects that I have worked on.
+This website contains my professional information and shows some of the projects that I have worked on.
 
 ## Table of Contents
 
 * [Installation](#installation)
 * [Usage](#usage)
     * [Screenshots](#screenshots)
-    * [Snippets](#snippets)
 * [Credits](#credits)
 * [License](#license)
 
@@ -58,94 +57,6 @@ Responsiveness:
 
 ![Site](./src/assets/images/responsive.gif)
 
-
-
-### Snippets
-
-Portfolio Row code
-
-```html
-
-      <!-- second row / content -->
-      <div class="row">
-
-        <div class="col-12 col-lg-6 col-xl-4 my-2">
-
-          <div class="card">
-            <img src="assets/images/code-quiz.png" class="card-img" alt="Code Quiz">
-            <div class="card-img-overlay">
-              <a href="https://kqarlos.github.io/code-quiz/" target="_blank"
-                class="btn text-white bg-info position-absolute contentText projectBtn">Code Quiz</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-12 col-lg-6 col-xl-4 my-2">
-
-          <div class="card">
-            <img src="assets/images/password-generator.png" class="card-img" alt="Password Generator">
-            <div class="card-img-overlay">
-              <a href="https://kqarlos.github.io/password-generator/" target="_blank"
-                class="btn text-white bg-info position-absolute contentText projectBtn">Password Generator</a>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-12 col-lg-6 col-xl-4 my-2">
-
-          <div class="card">
-            <img src="assets/images/day-planner.png" class="card-img" alt="Day Planner">
-            <div class="card-img-overlay">
-              <a href="https://kqarlos.github.io/day-planner/" target="_blank"
-                class="btn text-white bg-info position-absolute contentText projectBtn">Day Planner</a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-```
-
-
-* This code snippet had an example of a row from the Bootstrap grid system used in the Portfolio page. The column &lt;div class="col-12 col-lg-6 col-xl-4 my-2"&gt; includes the Bootstrap styling necessary to make the project cards responsive to three different browser dimensions. Each project card takes 4 columns at xl size, then 6 columns at lg size and all 12 columns at smaller sizes.
-
-Navigation Bar code 
-
-```html
-
-  <!-- nav bar -->
-<nav class="py-0 navbar sticky-top navbar-expand-lg navbar-light bg-info">
-    <a class="navbar-brand bg-info text-white font-weight-bold p-3 headingText" href="#about">Carlos Toledo</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item border-right">
-          <a class="nav-link contentText text-white" href="#portfolio">Portfolio</a>
-        </li>
-        <li class="nav-item border-right">
-          <a class="nav-link contentText text-white" href="#contact">Contact</a>
-        </li>
-        <li class="nav-item border-right">
-          <a class="nav-link contentText text-white" target="_blank" href="assets/resume.pdf">Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link contentText text-white" target="_blank" href="assets/cover-letter.pdf">Cover Letter</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- end nav-bar -->
-
-```
-
-* This shows the code used to create the navigation bar using a Bootstrap Navbar. In addition to formatting the objects through Bootstrap's styling, I can also add my own css styling as is shown. For example, &lt;a class="nav-link contentText text-white"&gt; uses Bootstrap styling like _text-white_ which adjust the color of the text. It also uses my own styling _contentText_ which tells it the font type and spacing between lines for the text in the list. What's different about this navigation bar is that it has links to diffferent elements within the DOM. In addition, it has links to two pdf files that open in a separate tab.
 
 ## Credits 
 
