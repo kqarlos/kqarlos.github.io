@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.fb5396c6.chunk.css",
-    "main.js": "/static/js/main.67e926a4.chunk.js",
-    "main.js.map": "/static/js/main.67e926a4.chunk.js.map",
+    "main.js": "/static/js/main.4f0a331b.chunk.js",
+    "main.js.map": "/static/js/main.4f0a331b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.801068b1.js",
     "runtime-main.js.map": "/static/js/runtime-main.801068b1.js.map",
     "static/js/2.2af08831.chunk.js": "/static/js/2.2af08831.chunk.js",
@@ -13,7 +13,7 @@
     "static/css/main.fb5396c6.chunk.css.map": "/static/css/main.fb5396c6.chunk.css.map",
     "static/js/2.2af08831.chunk.js.LICENSE.txt": "/static/js/2.2af08831.chunk.js.LICENSE.txt",
     "static/media/Axios.25c6a0f8.jpg": "/static/media/Axios.25c6a0f8.jpg",
-    "static/media/CarlosToledo_CoverLetter.6afaacd1.pdf": "/static/media/CarlosToledo_CoverLetter.6afaacd1.pdf",
+    "static/media/CarlosToledo_CoverLetter.f7969d45.pdf": "/static/media/CarlosToledo_CoverLetter.f7969d45.pdf",
     "static/media/CarlosToledo_Resume.24bdcb24.pdf": "/static/media/CarlosToledo_Resume.24bdcb24.pdf",
     "static/media/Charts.ce032c54.jpg": "/static/media/Charts.ce032c54.jpg",
     "static/media/Express.26ed8584.jpg": "/static/media/Express.26ed8584.jpg",
@@ -51,6 +51,6 @@
     "static/js/runtime-main.801068b1.js",
     "static/js/2.2af08831.chunk.js",
     "static/css/main.fb5396c6.chunk.css",
-    "static/js/main.67e926a4.chunk.js"
+    "static/js/main.4f0a331b.chunk.js"
   ]
 }
