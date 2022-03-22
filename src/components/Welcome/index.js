@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css'
-import headshot from '../../assets/images/headshot.jpg'
+import headshot from '../../assets/images/headshot2.jpg'
 
 function Welcome() {
 
@@ -23,7 +23,7 @@ function Welcome() {
                                 <header className="welcomeH2">A Full Stack Web Developer</header>
                             </div>
                             <div className="col-12 pt-1">
-                                <a href="#about" className="btn text-white bg-info float-right" id="aboutBtn">About me    <i className="fas fa-arrow-circle-down"></i></a>
+                                <a href="#about" className="btn text-info float-right" id="aboutBtn"><i class="fa-solid fa-angles-down display-4"></i></a>
                             </div>
                         </div>
                     </div>

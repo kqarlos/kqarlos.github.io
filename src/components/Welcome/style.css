@@ -1,6 +1,7 @@
 #welcome {
     min-height: 100vh;
-    background-image: url("../../assets/images/welcome.jpg");
+    background: url("../../assets/images/background4.jpg") center center fixed;
+    background-size: cover;
     display: flex;
     align-items: center;
 }
