@@ -9,8 +9,8 @@
     bottom: 250px;
     right: 30px;
     z-index: 99;
-    font-size: 18px;
-    background-color: var(--bgInfo);
+    /* font-size: 18px; */
+    /* background-color: var(--bgInfo); */
     animation-name: rToLBtn;
     animation-duration: 3s;
   }
@@ -19,10 +19,6 @@
 
     #topBtn {
         right: 2px;
-    }
-
-    #t{
-        display: none;
     }
 
 }
