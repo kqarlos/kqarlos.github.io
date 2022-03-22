@@ -41,7 +41,7 @@ function Footer() {
                 <hr className="py-0 my-0" />
 
                 {/* <!-- Copyright --> */}
-                <div className="footer-copyright text-center pb-2 footerText text-white">© 2021 Copyright: Carlos T.</div>
+                <div className="footer-copyright text-center pb-2 footerText text-white">© 2022 Copyright: Carlos T.</div>
 
             </div>
 

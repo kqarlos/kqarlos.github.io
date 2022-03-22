@@ -6,7 +6,7 @@
   --linkHoverDarker: #09444d;
   --bgInfo: rgba(23,162,184,1);
   --bgInfoLight: rgba(23,162,184,0.75);
-  --bgImgWall: url("./assets/images/beanstalk.png");
+  --bgImgWall: url("./assets/images/background5.jpg");
   --paddingTopSection: calc(var(--navbarH) + 15px);
   --linkHoverLight: rgba(23,162,184,0.2);
 
@@ -33,7 +33,9 @@ html {
 
 .section {
   padding-top: var(--paddingTopSection);
-  background-image: var(--bgImgWall)
+  /* background-image: var(--bgImgWall) */
+  background: url("./assets/images/background5.jpg") center center fixed;
+  background-size: cover;
 
 }
 
