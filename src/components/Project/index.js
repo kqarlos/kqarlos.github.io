@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import { useStoreContext } from "../../utils/GlobalState";
 
 function Project() {
 
-    const [state, dispatch] = useStoreContext();
+    const [state] = useStoreContext();
 
     const [projectState, setProjectState] = useState({
         stack2Snippets: state.currentProject.stack2Snippets || [],
@@ -22,6 +22,11 @@ function Project() {
             currentIndex: index
         })
     }
+
+    // useEffect(() => {
+    //     console.log("state from Project", state);
+    // }, [state.currentProject])
+
 
 
     return (
@@ -100,9 +105,9 @@ function Project() {
                     </div>
                     <div className="row">
                         <div className="col-12 h4 my-2">Links</div>
-                        <a className="col-12 link" style={{ textDecoration: 'none' }} href={state.currentProject.repo} target="_blank">
+                        <a className="col-12 link" style={{ textDecoration: 'none' }} href={state.currentProject.repo} target="_blank" rel="noreferrer">
                             <i className="fab fa-github-alt"></i> {state.currentProject.repo}</a>
-                        <a className="col-12 link" style={{ textDecoration: 'none' }} href={state.currentProject.deployed} target="_blank">
+                        <a className="col-12 link" style={{ textDecoration: 'none' }} href={state.currentProject.deployed} target="_blank" rel="noreferrer">
                             <i className="far fa-play-circle"></i> {state.currentProject.deployed}</a>
 
                     </div>

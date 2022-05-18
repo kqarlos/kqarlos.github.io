@@ -35,9 +35,9 @@ function Resume() {
                                 <p> Vallejo, CA 94590</p>
                                 <p>Email: kqarlos415@gmail.com</p>
                                 <p>Phone: 415-590-9772</p>
-                                <p><a className="link" style={{ textDecoration: 'none' }} href="https://www.linkedin.com/in/carlos-toledo415/" target="_blank">LinkedIn: https://www.linkedin.com/in/carlos-toledo415/</a></p>
-                                <p><a className="link" style={{ textDecoration: 'none' }} href="https://github.com/kqarlos" target="_blank">Github: https://github.com/kqarlos</a></p>
-                                <p><a className="link" style={{ textDecoration: 'none' }} href="https://kqarlos.github.io" target="_blank">Portfolio: https://kqarlos.github.io</a></p>
+                                <p><a className="link" style={{ textDecoration: 'none' }} href="https://www.linkedin.com/in/carlos-toledo415/" target="_blank" rel="noreferrer">LinkedIn: https://www.linkedin.com/in/carlos-toledo415/</a></p>
+                                <p><a className="link" style={{ textDecoration: 'none' }} href="https://github.com/kqarlos" target="_blank" rel="noreferrer">Github: https://github.com/kqarlos</a></p>
+                                <p><a className="link" style={{ textDecoration: 'none' }} href="https://kqarlos.github.io" target="_blank" rel="noreferrer">Portfolio: https://kqarlos.github.io</a></p>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@ function Resume() {
 
                         <div className="row">
                             <div className="col-12">
-                                <p>Tumi Bakery | <a className="link" style={{ textDecoration: 'none' }} href="https://tumibakery.com" target="_blank">https://tumibakery.com</a></p>
+                                <p>Tumi Bakery | <a className="link" style={{ textDecoration: 'none' }} href="https://tumibakery.com" target="_blank" rel="noreferrer">https://tumibakery.com</a></p>
                             </div>
                             <div className="col-12 ml-5">
                                 <p className="textt">Application developed for Tumi Peruvian Bakery in Vallejo, CA.</p>
@@ -108,8 +108,8 @@ function Resume() {
                         <div className="row">
                             <div className="col-12">
                                 <p>Election Year |
-                                    <a className="link" style={{ textDecoration: 'none' }} href="https://github.com/kqarlos/election-year" target="_blank"> https://github.com/kqarlos/election-year</a> |
-                                    <a className="link" style={{ textDecoration: 'none' }} href="https://electionyear2020.herokuapp.com/" target="_blank"> https://electionyear2020.herokuapp.com/</a>
+                                    <a className="link" style={{ textDecoration: 'none' }} href="https://github.com/kqarlos/election-year" target="_blank" rel="noreferrer"> https://github.com/kqarlos/election-year</a> |
+                                    <a className="link" style={{ textDecoration: 'none' }} href="https://electionyear2020.herokuapp.com/" target="_blank" rel="noreferrer"> https://electionyear2020.herokuapp.com/</a>
                                 </p>
                             </div>
                             <div className="col-12 ml-5">
@@ -122,8 +122,8 @@ function Resume() {
                         <div className="row">
                             <div className="col-12">
                                 <p>Artiste Affame |
-                                    <a className="link" style={{ textDecoration: 'none' }} href="https://github.com/kqarlos/artiste-affame" target="_blank"> https://github.com/kqarlos/artiste-affame</a> |
-                                    <a className="link" style={{ textDecoration: 'none' }} href="https://artiste-affame.herokuapp.com/" target="_blank"> https://artiste-affame.herokuapp.com/</a>
+                                    <a className="link" style={{ textDecoration: 'none' }} href="https://github.com/kqarlos/artiste-affame" target="_blank" rel="noreferrer"> https://github.com/kqarlos/artiste-affame</a> |
+                                    <a className="link" style={{ textDecoration: 'none' }} href="https://artiste-affame.herokuapp.com/" target="_blank" rel="noreferrer"> https://artiste-affame.herokuapp.com/</a>
                                 </p>
                             </div>
                             <div className="col-12 ml-5">
@@ -218,7 +218,7 @@ function Resume() {
                     </div>
 
                     <div className="col-12 pt-1">
-                        <a href={resume} target="_blank" className="btn text-white bg-info float-right" id="aboutBtn">Resume PDF <i className="fas fa-arrow-circle-right"></i></a>
+                        <a href={resume} target="_blank" rel="noreferrer" className="btn text-white bg-info float-right" id="aboutBtn">Resume PDF <i className="fas fa-arrow-circle-right"></i></a>
                     </div>
 
                 </div>

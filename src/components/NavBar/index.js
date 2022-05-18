@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css'
-import resume from '../../assets/pdf/CarlosToledo_Resume.pdf';
 import coverLetter from '../../assets/pdf/CarlosToledo_CoverLetter.pdf';
 
 function NavBar() {
@@ -22,15 +21,15 @@ function NavBar() {
                         <a className="nav-link navbarText navLink smoothLink" href="#resume">Resume</a>
                     </li>
                     <li className="nav-item pl-2">
-                        <a className="nav-link navbarText navLink" target="_blank" href={coverLetter}>Cover
+                        <a className="nav-link navbarText navLink" target="_blank" rel="noreferrer" href={coverLetter}>Cover
                             Letter</a>
                     </li>
                     <li className="nav-item pl-2">
-                        <a className="nav-link navbarText navLink" target="_blank" href="https://github.com/kqarlos"><i
+                        <a className="nav-link navbarText navLink" target="_blank" rel="noreferrer" href="https://github.com/kqarlos"><i
                             className="fab fa-github-alt"></i></a>
                     </li>
                     <li className="nav-item pl-2">
-                        <a className="nav-link navbarText navLink" target="_blank"
+                        <a className="nav-link navbarText navLink" target="_blank" rel="noreferrer"
                             href="https://www.linkedin.com/in/carlos-toledo415/"><i className="fab fa-linkedin"></i></a>
                     </li>
                 </ul>

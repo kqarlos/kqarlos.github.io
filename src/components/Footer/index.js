@@ -14,7 +14,7 @@ function Footer() {
                    
                     <div className="col-md-4 py-1"> 
                         <a className="btn footerLink mx-2" style={{backgroundColor: 'rgb(73, 73, 139)'}} target="_blank"
-                            href="https://www.linkedin.com/in/carlos-toledo415/">
+                            rel="noreferrer" href="https://www.linkedin.com/in/carlos-toledo415/">
                             <i className="fab fa-linkedin-in"></i></a><span className="label">carlos-toledo415</span>
                     </div>
 
@@ -26,7 +26,7 @@ function Footer() {
 
                     <div className="col-md-3 py-1">
                         <a className="btn footerLink mx-2" style={{backgroundColor: 'rgb(48, 48, 48)'}} target="_blank"
-                            href="https://github.com/kqarlos">
+                            rel="noreferrer" href="https://github.com/kqarlos">
                             <i className="fab fa-github-alt"></i></a><span className="label">kqarlos</span>
                     </div>
 

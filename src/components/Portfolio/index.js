@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './style.css';
 import artisteImg from "../../assets/images/artiste/artiste.png";
 import electionYearImg from "../../assets/images/election/election-year.png";
@@ -19,11 +19,11 @@ import ProjectCard from '../ProjectCard';
 
 function Portfolio() {
 
-    const [state, dispatch] = useStoreContext();
+    const [ , dispatch] = useStoreContext();
 
-    useEffect(() => {
-        console.log("state from portfolio", state)
-    }, [])
+    // useEffect(() => {
+    //     console.log("state from portfolio", state)
+    // }, [])
 
     function handleClick(p) {
         console.log("project clicked", p)
