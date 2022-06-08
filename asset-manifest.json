@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.107ca8cc.chunk.css",
-    "main.js": "/static/js/main.19bc4273.chunk.js",
-    "main.js.map": "/static/js/main.19bc4273.chunk.js.map",
+    "main.js": "/static/js/main.0d2bdab6.chunk.js",
+    "main.js.map": "/static/js/main.0d2bdab6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.801068b1.js",
     "runtime-main.js.map": "/static/js/runtime-main.801068b1.js.map",
     "static/js/2.2af08831.chunk.js": "/static/js/2.2af08831.chunk.js",
@@ -35,8 +35,8 @@
     "static/media/dinner-party.8282fb0b.png": "/static/media/dinner-party.8282fb0b.png",
     "static/media/election-year-live.5bddce99.gif": "/static/media/election-year-live.5bddce99.gif",
     "static/media/election-year.53bddb64.png": "/static/media/election-year.53bddb64.png",
-    "static/media/google-library-live.e26e7ba4.gif": "/static/media/google-library-live.e26e7ba4.gif",
-    "static/media/google-library.f6be4712.png": "/static/media/google-library.f6be4712.png",
+    "static/media/google-library-live.df77791c.gif": "/static/media/google-library-live.df77791c.gif",
+    "static/media/google-library.77de8912.png": "/static/media/google-library.77de8912.png",
     "static/media/headshot2.e3418cca.jpg": "/static/media/headshot2.e3418cca.jpg",
     "static/media/headshot5.2ac47b30.jpg": "/static/media/headshot5.2ac47b30.jpg",
     "static/media/memory-game-live.8a4b2264.gif": "/static/media/memory-game-live.8a4b2264.gif",
@@ -53,6 +53,6 @@
     "static/js/runtime-main.801068b1.js",
     "static/js/2.2af08831.chunk.js",
     "static/css/main.107ca8cc.chunk.css",
-    "static/js/main.19bc4273.chunk.js"
+    "static/js/main.0d2bdab6.chunk.js"
   ]
 }
