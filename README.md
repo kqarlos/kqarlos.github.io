@@ -42,20 +42,8 @@ This application is compatible with the most commonly used web browsers.
 ### Screenshots
 
 Live Site:
- * Uses smooth scrolling
- * Has sticky navigation bar
- * Links to pdf files
 
-![Site](./src/assets/images/fullsite.gif)
-
-
-Responsiveness:
- * Navigation bar collapses
- * Content width takes a higher percentage.
- * back to top button shortens
-
-
-![Site](./src/assets/images/responsive.gif)
+![Site](./src/assets/images/live.gif)
 
 
 ## Credits 
