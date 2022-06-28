@@ -1,0 +1,33 @@
+.navbar {
+    padding: 0 5% 0 0;
+}
+
+.navbarText {
+    font-size: 2rem;
+}
+
+.navLink {
+    color: white !important;
+}
+
+.navLink:hover {
+    color: var(--linkHoverDarker) !important;
+
+}
+
+.navbar-brand {
+    max-width: 100%;
+}
+  
+@media screen and (max-width: 992px) {
+      
+    .navbar {
+        padding: 0;
+    }
+
+    li.nav-item:nth-child(2n -1) {
+        background-color: var(--linkHoverDark);
+
+      }
+
+  }

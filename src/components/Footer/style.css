@@ -1,0 +1,21 @@
+.page-footer {
+    border-top: 8px solid var(--bgInfo);
+    background-color: #666666;
+    font-size: small;
+}
+
+.footerLink{
+    color: white;
+    border-radius: 30%;
+    font-size: 2rem;
+    width: 67px;
+}
+
+.footerLink:hover {
+    color: var(--linkHoverDarker);
+}
+
+.footerText {
+    line-height: 32px;
+    font-size: 1rem;
+}
