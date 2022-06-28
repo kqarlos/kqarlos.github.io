@@ -25,7 +25,6 @@ This website contains my professional information and shows some of the projects
 
 * [Installation](#installation)
 * [Usage](#usage)
-    * [Screenshots](#screenshots)
 * [Credits](#credits)
 * [License](#license)
 
@@ -38,8 +37,6 @@ This application is compatible with the most commonly used web browsers.
 </p>
 
 ## Usage
-
-### Screenshots
 
 Live Site:
 
