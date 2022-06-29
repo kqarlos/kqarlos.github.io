@@ -12,9 +12,6 @@
 /build
 
 # misc
-public2
-src2
-package2.json
 .DS_Store
 .env.local
 .env.development.local
